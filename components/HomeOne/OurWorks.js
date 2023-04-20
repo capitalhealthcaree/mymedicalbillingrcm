@@ -6,15 +6,13 @@ import { Pagination, Autoplay } from "swiper";
 const OurWorks = () => {
   return (
     <>
-      <div className="our-work-area ptb-100">
+      <div className="our-work-area ptb-50">
         <div className="container">
           <div className="section-title">
-            <span className="top-title">Our Works</span>
-            <h2>Our Intensive Care Unit</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
-              vel consequatur tempora atque blanditiis exercitationem incidunt,
-              alias corporis quam assumenda dicta, temporibus.
+            <h2 style={{ color: "white" }}>Whom We Serve</h2>
+            <p style={{ color: "white" }}>
+              Our company serves a diverse range of clients across various
+              industries, including healthcare, finance, and technology
             </p>
           </div>
 
@@ -44,19 +42,20 @@ const OurWorks = () => {
           >
             <SwiperSlide>
               <div className="single-work">
-                <img src="/img/work1.jpg" alt="Image" />
+                <img src="/img/work1.png" alt="Image" />
 
                 <h3 className="work-title">
-                  <i className="flaticon-kidney"></i>
-                  Surgery Dep
+                  {/* <i className="flaticon-kidney"></i> */}
+                  Medical Billing Companies
                 </h3>
 
                 <div className="work-content-wrap">
                   <div className="work-content">
-                    <h3>Surgery Dep</h3>
+                    {/* <h3>Surgery Dep</h3> */}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod.
+                      Medical billing companies provide healthcare providers
+                      with specialized services for processing medical claims
+                      and managing revenue cycle operations.
                     </p>
 
                     <Link href="/service-details" className="read-more">
@@ -69,19 +68,19 @@ const OurWorks = () => {
 
             <SwiperSlide>
               <div className="single-work">
-                <img src="/img/work2.jpg" alt="Image" />
+                <img src="/img/work2.png" alt="Image" />
 
                 <h3 className="work-title">
-                  <i className="flaticon-doll"></i>
-                  Childcare Dep
+                  {/* <i className="flaticon-cardiology"></i> */}
+                  Hospitals
                 </h3>
 
                 <div className="work-content-wrap">
                   <div className="work-content">
-                    <h3>Childcare Dep</h3>
+                    {/* <h3>Cardiologist</h3> */}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod.
+                      Medical hospitals are healthcare facilities that provide a
+                      wide range of medical and surgical services to patients.
                     </p>
 
                     <Link href="/service-details" className="read-more">
@@ -91,22 +90,22 @@ const OurWorks = () => {
                 </div>
               </div>
             </SwiperSlide>
-
             <SwiperSlide>
               <div className="single-work">
-                <img src="/img/work3.jpg" alt="Image" />
+                <img src="/img/work3.png" alt="Image" />
 
                 <h3 className="work-title">
-                  <i className="flaticon-cardiology"></i>
-                  Cardiology Dep
+                  {/* <i className="flaticon-cardiology"></i> */}
+                  Physicians
                 </h3>
 
                 <div className="work-content-wrap">
                   <div className="work-content">
-                    <h3>Cardiology Dep</h3>
+                    {/* <h3>Cardiologist</h3> */}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod.
+                      Physicians are medical professionals who diagnose, treat,
+                      and manage illnesses, injuries, and other medical
+                      conditions in patients.
                     </p>
 
                     <Link href="/service-details" className="read-more">
@@ -116,22 +115,48 @@ const OurWorks = () => {
                 </div>
               </div>
             </SwiperSlide>
-
             <SwiperSlide>
               <div className="single-work">
-                <img src="/img/work4.jpg" alt="Image" />
+                <img src="/img/work4.png" alt="Image" />
 
                 <h3 className="work-title">
-                  <i className="flaticon-cardiology"></i>
-                  Cardiologist
+                  {/* <i className="flaticon-cardiology"></i> */}
+                  Small Practices
                 </h3>
 
                 <div className="work-content-wrap">
                   <div className="work-content">
-                    <h3>Cardiologist</h3>
+                    {/* <h3>Cardiologist</h3> */}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod.
+                      Small practices typically refer to healthcare facilities
+                      with fewer than ten physicians, providing personalized and
+                      community-based medical care services to patients.
+                    </p>
+
+                    <Link href="/service-details" className="read-more">
+                      Details <i className="bx bx-plus"></i>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-work">
+                <img src="/img/work5.png" alt="Image" />
+
+                <h3 className="work-title">
+                  {/* <i className="flaticon-cardiology"></i> */}
+                  Urgent Care Centers
+                </h3>
+
+                <div className="work-content-wrap">
+                  <div className="work-content">
+                    {/* <h3>Cardiologist</h3> */}
+                    <p>
+                      Urgent Care Centers are medical facilities that offer
+                      immediate medical attention for non-life-threatening
+                      illnesses or injuries, often with extended hours and
+                      walk-in appointments.
                     </p>
 
                     <Link href="/service-details" className="read-more">
@@ -144,9 +169,9 @@ const OurWorks = () => {
           </Swiper>
         </div>
 
-        <div className="shape">
+        {/* <div className="shape">
           <img src="/img/shape/work-shape.png" alt="Image" />
-        </div>
+        </div> */}
       </div>
     </>
   );

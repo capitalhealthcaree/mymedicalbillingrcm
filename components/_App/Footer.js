@@ -6,25 +6,24 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="footer-top-area f-bg pt-100 pb-70">
+      <footer className="footer-top-area f-bg pt-70">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <div 
+              <div
                 className="single-widget"
                 data-aos="fade-in"
                 data-aos-delay="100"
                 data-aos-duration="1200"
               >
                 <Link href="/">
-                  <img src="/img/logo.png" alt="Image" />
+                  <img src="/img/rcm-logo.png" alt="Image" />
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor, sit amet earum consectetur adipisicing
-                  elit. Cupiditate rerum quidem fugiat sapiente! Iusto quae
-                  perspiciatis, repudiandae ipsam minus et ex, aliquid dolor
-                  molestias, earum enim officiis porro obcaecati.
+                  Advance Healthcare Solutions is a company specializing in
+                  health care services with a particular focus on empowering
+                  hospitals, group practices, and independent practices.
                 </p>
 
                 <div className="social-area">
@@ -62,68 +61,78 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-2 col-md-6">
-              <div 
+            <div className="col-lg-3 col-md-6">
+              <div
                 className="single-widget"
                 data-aos="fade-in"
                 data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                <h3>Departments</h3>
+                <h3>Services</h3>
                 <ul>
                   <li>
-                    <Link href="#">Surgery & Radiology</Link>
+                    <Link href="#">Durable Medical Equipment (DME)</Link>
                   </li>
                   <li>
-                    <Link href="#">Children Care</Link>
+                    <Link href="#">Revenue Cycle Management</Link>
                   </li>
                   <li>
-                    <Link href="#">Orthopedics</Link>
+                    <Link href="#">Credentialing Services</Link>
                   </li>
                   <li>
-                    <Link href="#">Nuclear Magnetic</Link>
+                    <Link href="#"> Medical Billing Service</Link>
                   </li>
+
                   <li>
-                    <Link href="#">Eye Treatment</Link>
+                    <Link href="#"> Practice Management</Link>
                   </li>
+
                   <li>
-                    <Link href="#">X-Ray</Link>
+                    <Link href="#">Referral Management</Link>
+                  </li>
+
+                  <li>
+                    <Link href="#">Medical Supplies</Link>
                   </li>
                 </ul>
               </div>
             </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div 
-                className="single-widget open-time"
+            <div className="col-lg-3 col-md-6">
+              <div
+                className="single-widget"
                 data-aos="fade-in"
-                data-aos-delay="300"
+                data-aos-delay="200"
                 data-aos-duration="1200"
               >
-                <h3>Opening Hours</h3>
+                <h3>Billing Softwares</h3>
                 <ul>
                   <li>
-                    <span>Mon-Tue:</span>
-                    <span className="right">6:00 AM - 10:00 PM</span>
+                    <Link href="#">Medisoft Billing Software Office Ally</Link>
                   </li>
                   <li>
-                    <span>Wed-Thu:</span>
-                    <span className="right">6:00 AM - 10:00 PM</span>
+                    <Link href="#"> IMS - Intelligent Billing Software</Link>
                   </li>
                   <li>
-                    <span>Fry:</span>
-                    <span className="right">6:00 AM - 04:00 PM</span>
+                    <Link href="#"> eCinicalWorks Billing Software</Link>
                   </li>
                   <li>
-                    <span>Sun:</span>
-                    <span className="right">Closed</span>
+                    <Link href="#">ChiroTouch Billing Software</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Athena Billing Software</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Kareo Billing Software</Link>
+                  </li>
+                  <li>
+                    <Link href="#"> Lytec Billing Software</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-3 col-md-6">
-              <div 
+              <div
                 className="single-widget contact"
                 data-aos="fade-in"
                 data-aos-delay="400"
@@ -139,10 +148,10 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:hello@corf.com">
+                    <a href="mailto:admin@mymedicalbillingrcm.com">
                       <i className="bx bx-envelope"></i>
                       <span>Email:</span>
-                      hello@corf.com
+                      admin@mymedicalbillingrcm.com
                     </a>
                   </li>
                   <li>
@@ -161,10 +170,8 @@ const Footer = () => {
         <div className="container">
           <div className="copy-right">
             <p>
-              Copyright &copy; {currentYear} Corf Designed by{" "}
-              <a href="https://envytheme.com/" target="blank">
-                EnvyTheme
-              </a>
+              Copyright &copy; {currentYear} Advanced Healthcare. All Rights
+              Reserved
             </p>
           </div>
         </div>

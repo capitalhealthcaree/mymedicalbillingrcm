@@ -8,10 +8,10 @@ const TopHeader = () => {
           <div className="row align-items-center">
             <div className="col-lg-8 col-md-9 col-sm-6">
               <ul className="header-content-left">
-                <li>
+                {/* <li>
                   <i className="bx bx-time"></i>
                   Mon-Fri 9am-5pm
-                </li>
+                </li> */}
                 <li>
                   <a href="tel:+822456974">
                     <i className="bx bx-phone-call"></i>
@@ -21,7 +21,7 @@ const TopHeader = () => {
                 <li>
                   <a href="mailto:hello@info.com">
                     <i className="bx bxs-paper-plane"></i>
-                    Email: hello@info.com
+                    Email: admin@mymedicalbillingrcm.com
                   </a>
                 </li>
               </ul>

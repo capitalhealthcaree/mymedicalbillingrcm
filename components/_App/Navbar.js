@@ -48,7 +48,7 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    <img src="/img/logo.png" alt="logo" />
+                    <img src="/img/rcm-logo.png" alt="logo" />
                   </Link>
 
                   <button
@@ -68,306 +68,29 @@ const Navbar = () => {
 
                   <div className={classOne} id="navbarSupportedContent">
                     <ul className="navbar-nav m-auto">
+                      {/* Home */}
                       <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
-                          Home <i className="bx bx-plus"></i>
-                        </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/"
-                              className={`nav-link ${
-                                currentPath == "/" && "active"
-                              }`}
-                            >
-                              Home 1 (Emergency Medical Clinic)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-2/"
-                              className={`nav-link ${
-                                currentPath == "/index-2/" && "active"
-                              }`}
-                            >
-                              Home 2 (Covid-19 Treatment Clinic)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-3/"
-                              className={`nav-link ${
-                                currentPath == "/index-3/" && "active"
-                              }`}
-                            >
-                              Home 3 (Covid-19 Test Center)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-4/"
-                              className={`nav-link ${
-                                currentPath == "/index-4/" && "active"
-                              }`}
-                            >
-                              Home 4 (Vaccination Center/Clinic)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-5/"
-                              className={`nav-link ${
-                                currentPath == "/index-5/" && "active"
-                              }`}
-                            >
-                              Home 5 (Doctors Directory Listing)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-6/"
-                              className={`nav-link ${
-                                currentPath == "/index-6/" && "active"
-                              }`}
-                            >
-                              Home 6 (Health Charity Event)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-7/"
-                              className={`nav-link ${
-                                currentPath == "/index-7/" && "active"
-                              }`}
-                            >
-                              Home 7 (Medical Research)
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/index-8/"
-                              className={`nav-link ${
-                                currentPath == "/index-8/" && "active"
-                              }`}
-                            >
-                              Home 8 (Dental Clinic)
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/about/"
-                          className={`nav-link ${
-                            currentPath == "/about/" && "active"
-                          }`}
-                        >
-                          About
+                        <Link href="/" className="nav-link">
+                          Home
                         </Link>
                       </li>
-
+                      {/* Services */}
                       <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
-                          Pages <i className="bx bx-plus"></i>
-                        </Link>
-
-                        <ul className="dropdown-menu">
-                          <li className="nav-item">
-                            <Link
-                              href="/pricing/"
-                              className={`nav-link ${
-                                currentPath == "/pricing/" && "active"
-                              }`}
-                            >
-                              Pricing
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/testimonials/"
-                              className={`nav-link ${
-                                currentPath == "/testimonials/" && "active"
-                              }`}
-                            >
-                              Testimonials
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/doctors/"
-                              className={`nav-link ${
-                                currentPath == "/doctors/" && "active"
-                              }`}
-                            >
-                              Doctors
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/appointment/"
-                              className={`nav-link ${
-                                currentPath == "/appointment/" && "active"
-                              }`}
-                            >
-                              Appointment
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/faq/"
-                              className={`nav-link ${
-                                currentPath == "/faq/" && "active"
-                              }`}
-                            >
-                              FAQs
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="#"
-                              onClick={(e) => e.preventDefault()}
-                              className="nav-link"
-                            >
-                              User <i className="bx bx-plus"></i>
-                            </Link>
-
-                            <ul className="dropdown-menu">
-                              <li className="nav-item">
-                                <Link
-                                  href="/sign-in/"
-                                  className={`nav-link ${
-                                    currentPath == "/sign-in/" && "active"
-                                  }`}
-                                >
-                                  Sign In
-                                </Link>
-                              </li>
-
-                              <li className="nav-item">
-                                <Link
-                                  href="/sign-up/"
-                                  className={`nav-link ${
-                                    currentPath == "/sign-up/" && "active"
-                                  }`}
-                                >
-                                  Sign Up
-                                </Link>
-                              </li>
-
-                              <li className="nav-item">
-                                <Link
-                                  href="/recover-password/"
-                                  className={`nav-link ${
-                                    currentPath == "/recover-password/" &&
-                                    "active"
-                                  }`}
-                                >
-                                  Recover Password
-                                </Link>
-                              </li>
-                            </ul>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/coming-soon/"
-                              className={`nav-link ${
-                                currentPath == "/coming-soon/" && "active"
-                              }`}
-                            >
-                              Coming Soon
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/terms-conditions/"
-                              className={`nav-link ${
-                                currentPath == "/terms-conditions/" && "active"
-                              }`}
-                            >
-                              Terms & Conditions
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/privacy-policy/"
-                              className={`nav-link ${
-                                currentPath == "/privacy-policy/" && "active"
-                              }`}
-                            >
-                              Privacy Policy
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/404"
-                              className={`nav-link ${
-                                currentPath == "/404/" && "active"
-                              }`}
-                            >
-                              404 Error Page
-                            </Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
-                        >
+                        <Link href="/services-2" className="nav-link">
                           Services <i className="bx bx-plus"></i>
                         </Link>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/services-1/"
+                              href="/service-details/"
                               className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
+                                currentPath == "/service-details/" && "active"
                               }`}
                             >
-                              Services Style One
+                              Durable Medical Equipment (DME)
                             </Link>
                           </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/services-2/"
-                              className={`nav-link ${
-                                currentPath == "/services-2/" && "active"
-                              }`}
-                            >
-                              Services Style Two
-                            </Link>
-                          </li>
-
                           <li className="nav-item">
                             <Link
                               href="/services-3/"
@@ -375,7 +98,38 @@ const Navbar = () => {
                                 currentPath == "/services-3/" && "active"
                               }`}
                             >
-                              Services Style Three
+                              Revenue Cycle Management
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Credentialing Services
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/services-1/"
+                              className={`nav-link ${
+                                currentPath == "/services-1/" && "active"
+                              }`}
+                            >
+                              Medical Billing Service
+                            </Link>
+                          </li>
+
+                          <li className="nav-item">
+                            <Link
+                              href="/services-2/"
+                              className={`nav-link ${
+                                currentPath == "/services-1/" && "active"
+                              }`}
+                            >
+                              Practice Management
                             </Link>
                           </li>
 
@@ -386,19 +140,140 @@ const Navbar = () => {
                                 currentPath == "/service-details/" && "active"
                               }`}
                             >
-                              Service Details
+                              Referral Management
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/services-1/"
+                              className={`nav-link ${
+                                currentPath == "/services-1/" && "active"
+                              }`}
+                            >
+                              All-in-One Platform
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Medical Supplies
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Specialty EHR
                             </Link>
                           </li>
                         </ul>
                       </li>
+                      {/*  Billing Software */}
+                      <li className="nav-item">
+                        <Link href="services-2" className="nav-link">
+                          Billing Softwares <i className="bx bx-plus"></i>
+                        </Link>
 
+                        <ul className="dropdown-menu">
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Medisoft Billing Software Office Ally
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              IMS - Intelligent Billing Software
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/services-3/"
+                              className={`nav-link ${
+                                currentPath == "/services-3/" && "active"
+                              }`}
+                            >
+                              eCinicalWorks Billing Software
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/services-2/"
+                              className={`nav-link ${
+                                currentPath == "/services-1/" && "active"
+                              }`}
+                            >
+                              ChiroTouch Billing Software
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/services-1/"
+                              className={`nav-link ${
+                                currentPath == "/services-1/" && "active"
+                              }`}
+                            >
+                              Athena Billing Software
+                            </Link>
+                          </li>
+
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Kareo Billing Software
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Lytec Billing Software
+                            </Link>
+                          </li>
+
+                          <li className="nav-item">
+                            <Link
+                              href="/service-details/"
+                              className={`nav-link ${
+                                currentPath == "/service-details/" && "active"
+                              }`}
+                            >
+                              Billing Software
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
+                      {/*  Our Clients */}
                       <li className="nav-item">
                         <Link
                           href="#"
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Doctors <i className="bx bx-plus"></i>
+                          Our Clients <i className="bx bx-plus"></i>
                         </Link>
 
                         <ul className="dropdown-menu">
@@ -447,36 +322,36 @@ const Navbar = () => {
                           </li>
                         </ul>
                       </li>
-
+                      {/*  Company */}
                       <li className="nav-item">
                         <Link
                           href="#"
                           onClick={(e) => e.preventDefault()}
                           className="nav-link"
                         >
-                          Blog <i className="bx bx-plus"></i>
+                          Company <i className="bx bx-plus"></i>
                         </Link>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/blog-grid/"
+                              href="/blog-right-sidebar/"
                               className={`nav-link ${
-                                currentPath == "/blog-grid/" && "active"
+                                currentPath == "/blog-right-sidebar/" &&
+                                "active"
                               }`}
                             >
-                              Blog Grid
+                              Privacy Policy
                             </Link>
                           </li>
-
                           <li className="nav-item">
                             <Link
-                              href="/blog-left-sidebar/"
+                              href="/testimonials/"
                               className={`nav-link ${
-                                currentPath == "/blog-left-sidebar/" && "active"
+                                currentPath == "/blog-details/" && "active"
                               }`}
                             >
-                              Blog Left Sidebar
+                              Testimonials
                             </Link>
                           </li>
 
@@ -488,7 +363,7 @@ const Navbar = () => {
                                 "active"
                               }`}
                             >
-                              Blog Right Sidebar
+                              Contact Us
                             </Link>
                           </li>
 
@@ -499,21 +374,60 @@ const Navbar = () => {
                                 currentPath == "/blog-details/" && "active"
                               }`}
                             >
-                              Blog Details
+                              Case Study
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/blog-details/"
+                              className={`nav-link ${
+                                currentPath == "/blog-details/" && "active"
+                              }`}
+                            >
+                              Case Study
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/blog-left-sidebar/"
+                              className={`nav-link ${
+                                currentPath == "/blog-left-sidebar/" && "active"
+                              }`}
+                            >
+                              About Us
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/faq/"
+                              className={`nav-link ${
+                                currentPath == "/blog-details/" && "active"
+                              }`}
+                            >
+                              FAQs
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/blog-grid/"
+                              className={`nav-link ${
+                                currentPath == "/blog-grid/" && "active"
+                              }`}
+                            >
+                              Blog
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/blog-details/"
+                              className={`nav-link ${
+                                currentPath == "/blog-details/" && "active"
+                              }`}
+                            >
+                              News
                             </Link>
                           </li>
                         </ul>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link
-                          href="/contact/"
-                          className={`nav-link ${
-                            currentPath == "/contact/" && "active"
-                          }`}
-                        >
-                          Contact
-                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -521,7 +435,7 @@ const Navbar = () => {
                   <div className="others-option">
                     <div className="subscribe">
                       <Link href="/contact" className="default-btn">
-                        Get A Quote
+                        Request Demo
                       </Link>
                     </div>
                   </div>

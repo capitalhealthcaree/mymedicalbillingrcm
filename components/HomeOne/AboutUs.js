@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const  AboutUs = () => {
+const AboutUs = () => {
   return (
     <>
       <div className="about-area pb-130">
@@ -28,33 +28,38 @@ const  AboutUs = () => {
             <div className="col-lg-6">
               <div className="about-content">
                 <span className="top-title">About Us</span>
-                <h2>We are trusted The Best Certificate Healthcare</h2>
+                <h2>Smart Medical Billing Services For Improved Cash Flow</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  Advanced Healthcare Solutions is a leading supplier of
+                  innovative health information systems and services that change
+                  the way administrative and clinical operations and medical
+                  records work in healthcare RCM organizations of all sizes.
                 </p>
 
                 <ul>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Scientific skills for getting a better result
+                    We are a leading medical billing company with years of
+                    experience
                   </li>
                   <li>
-                    <i className="flaticon-tick"></i>A good environment for work
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Professional doctors
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Digital laboratory
+                    <i className="flaticon-tick"></i>Our team of experts
+                    provides comprehensive medical billing and coding services
                   </li>
                   <li>
                     <i className="flaticon-tick"></i>
-                    Emergency services
+                    We use advanced technology and software to streamline
+                    workflows
+                  </li>
+                  <li>
+                    <i className="flaticon-tick"></i>
+                    We prioritize open communication and collaboration with our
+                    clients
+                  </li>
+                  <li>
+                    <i className="flaticon-tick"></i>
+                    We are dedicated to providing exceptional customer service
+                    and support
                   </li>
                 </ul>
 

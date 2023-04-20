@@ -1152,8 +1152,9 @@ Doctors Area Style
 Work Area Style
 ======================================================*/
 .our-work-area {
-  background-image: url(/img/work-bg.jpg);
+  /* background-image: url(/img/work-bg.jpg); */
   background-position: center center;
+  background-color: #001430;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -1777,7 +1778,7 @@ Footer Top Area Style
   background-color: #001430;
 }
 .footer-top-area.f-bg {
-  background-image: url(/img/footer-bg.jpg);
+  /* background-image: url(/img/footer-bg.jpg); */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

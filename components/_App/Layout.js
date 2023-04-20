@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Corf - Doctor Medical Health React Next Template</title>
+        <title>Medical Billing & Coding Services Company in Texas</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"

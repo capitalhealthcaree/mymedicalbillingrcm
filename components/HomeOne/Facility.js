@@ -7,7 +7,7 @@ const Facilities = () => {
       <div className="second-facility-area pt-100 pb-70">
         <div className="container">
           <div className="row justify-content-center">
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="100"
@@ -15,10 +15,12 @@ const Facilities = () => {
             >
               <div className="second-facility-item">
                 <img src="/img/facility-img/facility-icon1.png" alt="Image" />
-                <h3>Qualified Doctors</h3>
+                <h3>Medical Billing Services</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                  Medical billing services involve submitting and following up
+                  on insurance claims, coding medical procedures, and
+                  reconciling discrepancies. They can provide assistance with
+                  patient billing, revenue cycle management, and compliance.
                 </p>
 
                 <Link href="/service-details" className="read-more">
@@ -27,18 +29,20 @@ const Facilities = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="200"
               data-aos-duration="1200"
             >
               <div className="second-facility-item">
-                <img src="/img/facility-img/facility-icon2.png" alt="Image" />
-                <h3>Emergency Helicopter</h3>
+                <img src="/img/facility-img/facility-icon7.png" alt="Image" />
+                <h3> Medical Coding Services</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                  Medical coding services involve the use of standardized codes
+                  to accurately translate healthcare diagnoses, procedures, and
+                  medical services into a universal language for billing and
+                  record-keeping purposes.
                 </p>
 
                 <Link href="/service-details" className="read-more">
@@ -47,18 +51,20 @@ const Facilities = () => {
               </div>
             </div>
 
-            <div 
+            <div
               className="col-lg-4 col-sm-6"
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-duration="1200"
             >
               <div className="second-facility-item">
-                <img src="/img/facility-img/facility-icon3.png" alt="Image" />
-                <h3>Leading Technology</h3>
+                <img src="/img/facility-img/facility-icon8.png" alt="Image" />
+                <h3> Revenue Cycle Management</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore.
+                  Revenue cycle management (RCM) is the process of tracking and
+                  managing the financial aspects of patient care, from
+                  appointment scheduling and insurance verification to claims
+                  processing and payment collection.
                 </p>
 
                 <Link href="/service-details" className="read-more">

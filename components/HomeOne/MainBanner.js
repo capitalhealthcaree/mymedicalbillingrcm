@@ -1,21 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import ModalVideo from "react-modal-video";
+import { useRouter } from "next/router";
 
 const MainBanner = () => {
-  const [isOpen, setOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <>
-      {/* If you want to change the video need to update videoID */}
-      <ModalVideo
-        channel="youtube"
-        autoplay
-        isOpen={isOpen}
-        videoId="bk7McNUjWgw"
-        onClose={() => setOpen(false)}
-      />
-
       <div className="main-banner-area">
         <div className="d-table">
           <div className="d-table-cell">
@@ -28,7 +19,7 @@ const MainBanner = () => {
                       data-aos-delay="100"
                       data-aos-duration="1200"
                     >
-                      Smarter Service Care
+                      END-TO-END MEDICAL BILLING SERVICES
                     </span>
 
                     <h1
@@ -36,7 +27,7 @@ const MainBanner = () => {
                       data-aos-delay="200"
                       data-aos-duration="1200"
                     >
-                      We are Committed to Your Best Health
+                      Medical Billing Experts You Can Trust
                     </h1>
 
                     <p
@@ -44,9 +35,11 @@ const MainBanner = () => {
                       data-aos-delay="300"
                       data-aos-duration="1200"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua gravida. Risus commodo.
+                      At Advance Healthcare, medical billing and coding are not
+                      just another billing option to outsource. Services that
+                      take advantage of an expert medical biller and coder
+                      present the primary focus for medical practices with
+                      medical billing and coding services.
                     </p>
 
                     <div
@@ -56,14 +49,14 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                     >
                       <Link href="/appointment" className="default-btn">
-                        Book An Appointment
+                        Request Demo
                       </Link>
 
                       <div
-                        onClick={() => setOpen(true)}
+                        onClick={() => router.push("/contact")}
                         className="default-btn active popup-youtube"
                       >
-                        Play Now
+                        Contact Us
                       </div>
                     </div>
                   </div>
@@ -93,57 +86,56 @@ const MainBanner = () => {
               <div className="first-facility-area">
                 <div className="row justify-content-center">
                   <div className="col-lg-4 col-sm-6">
-                    <div 
-                      className="first-facility-item" 
+                    <div
+                      className="first-facility-item"
                       data-aos="fade-in"
                       data-aos-delay="100"
                       data-aos-duration="1200"
                     >
                       <i className="flaticon-care"></i>
-                      <h3>Special Service</h3>
+                      <h3>Special Services</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
+                        Special Services may include unique or customized
+                        offerings for clients.
                       </p>
                     </div>
                   </div>
 
                   <div className="col-lg-4 col-sm-6">
-                    <div 
-                      className="first-facility-item" 
+                    <div
+                      className="first-facility-item"
                       data-aos="fade-in"
                       data-aos-delay="200"
                       data-aos-duration="1200"
                     >
                       <i className="flaticon-support"></i>
-                      <h3>24/7 Advanced Care</h3>
+                      <h3>24/7 Customer Support</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
+                        24/7 customer support offers assistance and service at
+                        any time.
                       </p>
                     </div>
                   </div>
 
                   <div className="col-lg-4 col-sm-6">
-                    <div 
-                      className="first-facility-item" 
+                    <div
+                      className="first-facility-item"
                       data-aos="fade-in"
                       data-aos-delay="300"
                       data-aos-duration="1200"
                     >
                       <i className="flaticon-online-learning"></i>
-                      <h3>Get Result Online</h3>
+                      <h3>Integrated Technology</h3>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do
+                        It combines multiple systems to streamline operations.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                <div className="shape">
+                {/* <div className="shape">
                   <img src="/img/shape/shape1.png" alt="Image" />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

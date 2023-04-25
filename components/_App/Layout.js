@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   // Preloader
   const [loader, setLoader] = React.useState(true);
   React.useEffect(() => {
-    setTimeout(() => setLoader(false), 1500);
+    setTimeout(() => setLoader(false), 600);
   }, []);
 
   return (

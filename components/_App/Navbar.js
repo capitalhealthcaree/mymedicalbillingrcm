@@ -76,7 +76,11 @@ const Navbar = () => {
                       </li>
                       {/* Services */}
                       <li className="nav-item">
-                        <Link href="/services-2" className="nav-link">
+                        <Link
+                          href="#"
+                          onClick={(e) => e.preventDefault()}
+                          className="nav-link"
+                        >
                           Services <i className="bx bx-plus"></i>
                         </Link>
 
@@ -93,7 +97,7 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services-3/"
+                              href="/services/revenue-cycle-management"
                               className={`nav-link ${
                                 currentPath == "/services-3/" && "active"
                               }`}
@@ -113,7 +117,7 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services-1/"
+                              href="/services/medical-billing-services/"
                               className={`nav-link ${
                                 currentPath == "/services-1/" && "active"
                               }`}

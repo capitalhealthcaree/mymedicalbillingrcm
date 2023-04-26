@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Navbar from "../../../components/_App/Navbar";
-import PageBanner from "../../../components/Common/PageBanner";
-import Footer from "../../../components/_App/Footer";
+import Navbar from "../../components/_App/Navbar";
+import PageBanner from "../../components/Common/PageBanner";
+import Footer from "../../components/_App/Footer";
 import DatePicker from "react-datepicker";
-import RCMFeature from "../../../components/Services/RCM";
+import RCMFeature from "../../components/Services/RCM";
 
 const RCM = () => {
   const [startDate, setStartDate] = useState(new Date());

@@ -97,7 +97,7 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services/revenue-cycle-management"
+                              href="/revenue-cycle-management"
                               className={`nav-link ${
                                 currentPath == "/services-3/" && "active"
                               }`}
@@ -117,7 +117,7 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services/medical-billing-services/"
+                              href="/medical-billing-services/"
                               className={`nav-link ${
                                 currentPath == "/services-1/" && "active"
                               }`}

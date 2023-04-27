@@ -11,6 +11,7 @@ import AppointmentForm from "../components/HomeOne/AppointmentForm";
 import TestimonialStyleOne from "../components/Common/TestimonialStyleOne";
 import NewsStyleOne from "../components/Common/NewsStyleOne";
 import Footer from "../components/_App/Footer";
+import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
 
 const Index = () => {
   return (
@@ -25,11 +26,11 @@ const Index = () => {
 
       <Services />
 
+      <FunFactStyleTwo />
+
       <DoctorsStyleOne />
 
       <OurWorks />
-
-      <FunFactStyleOne />
 
       <AppointmentForm />
 

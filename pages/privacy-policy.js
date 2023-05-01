@@ -20,102 +20,104 @@ const PrivacyPolicy = () => {
       <div className="terms-conditions ptb-100">
         <div className="container">
           <div className="single-privacy">
-            <h3 className="mt-0">Welcome To Corf Privacy Policy</h3>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. scrambled it to make a type specimen book. It has
-              survived not only five centuries.
+              Your privacy is important to us, which is why we have made it a
+              top priority to establish this Policy. In order to adhere to the
+              policy explained, we've located the following occupation of the
+              information gathered: We collect and use personal info in order to
+              conduct our business activities. We retain personal information
+              only for the purpose(s) specified by us and for other suitable
+              reasons. Unless we obtain the consent of the individual concerned
+              or as required by law, we will provide personal information only
+              for acceptable uses. At Advanced Healthcare Solutions, we value
+              our clients' privacy and understand the importance of protecting
+              their confidential information. This Privacy and Policy document
+              outlines the measures we take to ensure the security of your data.
             </p>
-
+            {/* 1 */}
+            <h2>Information We Collect</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              We collect certain information from our clients to perform our
+              services. This includes but is not limited to:
             </p>
-
-            <h3>Welcome To Help Corf Privacy Policy</h3>
+            <ul>
+              <li>Patient names and addresses</li>
+              <li>Medical history and diagnosis codes</li>
+              <li>
+                Social security numbers and other personal identification
+                information
+              </li>
+              <li>Insurance policy and payment information</li>
+              <li>Healthcare provider information</li>
+            </ul>
+            {/* 2 */}
+            <h2>How We Use The Information</h2>
+            <p>We use the information collected for the following purposes:</p>
+            <ul>
+              <li>Billing and payment processing</li>
+              <li>Insurance claim submissions</li>
+              <li>Healthcare provider credentialing</li>
+              <li>Compliance with legal and regulatory requirementsn</li>
+              <li>Quality assurance and analysis</li>
+            </ul>
+            {/* 3 */}
+            <h2>Information Security</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              We take measures to ensure the security and confidentiality of our
+              clients' data. This includes:
             </p>
-
+            <ul>
+              <li>Regular security assessments and audits</li>
+              <li>Physical and electronic access controls</li>
+              <li>Encryption of sensitive data</li>
+              <li>Implementation of HIPAA and HITECH Act regulations</li>
+              <li>Staff training on information security</li>
+            </ul>
+            {/* 4 */}
+            <h2>Data Retention</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              We retain client data in accordance with legal and regulatory
+              requirements. After the retention period, we securely dispose of
+              the data.
             </p>
-
-            <h3>Welcome To Services Corf Privacy Policy</h3>
+            {/* 5 */}
+            <h2>Data Sharing</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              We may share client data with authorized third-party vendors to
+              provide our services. We require these vendors to maintain the
+              same level of confidentiality and security as we do.
             </p>
-
+            {/* 6 */}
+            <h2>Client Rights</h2>
+            <p>Our clients have the right to:</p>
+            <ul>
+              <li>Access their data and request corrections</li>
+              <li>Request a copy of their data</li>
+              <li>Request that their data be deleted</li>
+              <li>Request that their data be restricted</li>
+            </ul>
+            {/* 7 */}
+            <h2>Changes to our Privacy and Policy</h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard
-              dummy text ever since the 1500s, when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              We reserve the right to update our Privacy and Policy document as
+              necessary. We will notify our clients of any material changes.
             </p>
+            <ul>
+              <li>Access their data and request corrections</li>
+              <li>Request a copy of their data</li>
+              <li>Request that their data be deleted</li>
+              <li>Request that their data be restricted</li>
+            </ul>
+            <span>
+              At Advanced Healthcare Solutions, we are committed to protecting
+              the privacy and security of our clients' data. If you have any
+              questions or concerns about our Privacy and Policy, please contact
+              us at Email: <b>admin@mymedicalbillingrcm.com</b> and call us at
+              <b>469-562-4188</b>
+            </span>
           </div>
         </div>
       </div>
-
-      <Subscribe />
-
       <Footer />
     </>
   );

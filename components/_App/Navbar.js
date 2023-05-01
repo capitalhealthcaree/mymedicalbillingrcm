@@ -349,9 +349,9 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/blog-right-sidebar/"
+                              href="/privacy-policy/"
                               className={`nav-link ${
-                                currentPath == "/blog-right-sidebar/" &&
+                                currentPath == "/privacy-policy/" &&
                                 "active"
                               }`}
                             >

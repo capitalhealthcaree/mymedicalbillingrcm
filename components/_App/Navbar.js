@@ -188,19 +188,22 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/medisoft-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/medisoft-billing-services/" &&
+                                "active"
                               }`}
                             >
-                              Medisoft Billing Software Office Ally
+                              Medisoft Billing Software
                             </Link>
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/intelligent-medical-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath ==
+                                  "/intelligent-medical-billing-services/" &&
+                                "active"
                               }`}
                             >
                               IMS - Intelligent Billing Software
@@ -208,9 +211,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services-3/"
+                              href="/ecinicalworks-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/services-3/" && "active"
+                                currentPath ==
+                                  "/ecinicalworks-billing-services/" && "active"
                               }`}
                             >
                               eCinicalWorks Billing Software
@@ -218,9 +222,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services-2/"
+                              href="/chirotouch-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
+                                currentPath ==
+                                  "/chirotouch-billing-services/" && "active"
                               }`}
                             >
                               ChiroTouch Billing Software
@@ -228,9 +233,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services-1/"
+                              href="/athena-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
+                                currentPath == "/athena-billing-services/" &&
+                                "active"
                               }`}
                             >
                               Athena Billing Software
@@ -239,9 +245,10 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/kareo-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/kareo-billing-services/" &&
+                                "active"
                               }`}
                             >
                               Kareo Billing Software
@@ -249,9 +256,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/lytec-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/lytec-billing-services/" &&
+                                "active"
                               }`}
                             >
                               Lytec Billing Software
@@ -260,12 +268,14 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/office-ally-medical-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath ==
+                                  "/office-ally-medical-billing-services/" &&
+                                "active"
                               }`}
                             >
-                              Billing Software
+                              Office Ally Billing Software
                             </Link>
                           </li>
                         </ul>

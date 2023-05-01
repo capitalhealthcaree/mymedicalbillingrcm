@@ -4,7 +4,8 @@ import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 import DatePicker from "react-datepicker";
 import MBSFeature from "../../components/Services/MBS";
-
+import FunFactStyleTwo from "../../components/Common/FunFactStyleTwo";
+import DoctorsStyleOne from "../../components/Common/DoctorsStyleOne";
 const MBS = () => {
   const [startDate, setStartDate] = useState(new Date());
 
@@ -309,6 +310,8 @@ const MBS = () => {
           </div>
         </div>
       </div>
+      <FunFactStyleTwo />
+      <DoctorsStyleOne />
       <MBSFeature />
       <Footer />
     </>

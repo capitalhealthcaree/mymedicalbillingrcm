@@ -35,11 +35,11 @@ const MainBanner = () => {
                       data-aos-delay="300"
                       data-aos-duration="1200"
                     >
-                      At Advance Healthcare, medical billing and coding are not
-                      just another billing option to outsource. Services that
-                      take advantage of an expert medical biller and coder
-                      present the primary focus for medical practices with
-                      medical billing and coding services.
+                      An integral part of Flatworld Solutions, Advanced
+                      Healthcare Solutions is a healthcare business process
+                      outsourcing (BPO) service provider that offers an
+                      extensive portfolio of services to physicians, billing
+                      companies, healthcare providers, and insurance companies.
                     </p>
 
                     <div
@@ -62,9 +62,7 @@ const MainBanner = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-12 pr-0">
-                  
-                </div>
+                <div className="col-lg-12 pr-0"></div>
               </div>
 
               <div className="first-facility-area">

@@ -15,7 +15,7 @@ const TopHeader = () => {
                 <li>
                   <a href="tel:+822456974">
                     <i className="bx bx-phone-call"></i>
-                    Call Us: +821-456-241
+                    Call Us: +1 (469) 866-5222
                   </a>
                 </li>
                 <li>

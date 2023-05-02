@@ -141,10 +141,10 @@ const Footer = () => {
                 <h3>Get In Touch</h3>
                 <ul>
                   <li>
-                    <a href="tel:+822456974">
+                    <a href="tel:+1 (469) 866-5222">
                       <i className="bx bx-phone-call"></i>
                       <span>Hotline:</span>
-                      Phone: +822456974
+                      Phone: +1 (469) 866-5222
                     </a>
                   </li>
                   <li>
@@ -157,7 +157,7 @@ const Footer = () => {
                   <li>
                     <i className="bx bx-location-plus"></i>
                     <span>Address:</span>
-                    123, Western Road, Melbourne Australia
+                    2071 N Collins Blvd Suite A Richardson TX 76092
                   </li>
                 </ul>
               </div>

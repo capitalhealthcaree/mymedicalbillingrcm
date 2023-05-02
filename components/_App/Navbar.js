@@ -87,9 +87,10 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/durable-medical-equipment/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/durable-medical-equipment/" &&
+                                "active"
                               }`}
                             >
                               Durable Medical Equipment (DME)
@@ -107,9 +108,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/credentialing-services/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/credentialing-services/" &&
+                                "active"
                               }`}
                             >
                               Credentialing Services
@@ -128,9 +130,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/services-2/"
+                              href="/practice-management/"
                               className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
+                                currentPath == "/practice-management/" && "active"
                               }`}
                             >
                               Practice Management
@@ -139,9 +141,10 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/referral-management/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/referral-management/" &&
+                                "active"
                               }`}
                             >
                               Referral Management
@@ -149,9 +152,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/services-1/"
+                              href="/all-in-one/"
                               className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
+                                currentPath == "/all-in-one/" && "active"
                               }`}
                             >
                               All-in-One Platform
@@ -159,9 +162,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/service-details/"
+                              href="/medical-supplies/"
                               className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
+                                currentPath == "/medical-supplies/" && "active"
                               }`}
                             >
                               Medical Supplies
@@ -351,8 +354,7 @@ const Navbar = () => {
                             <Link
                               href="/privacy-policy/"
                               className={`nav-link ${
-                                currentPath == "/privacy-policy/" &&
-                                "active"
+                                currentPath == "/privacy-policy/" && "active"
                               }`}
                             >
                               Privacy Policy

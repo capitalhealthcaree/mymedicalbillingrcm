@@ -411,9 +411,9 @@ const RCM = () => {
           </div>
         </div>
       </div>
+      <RCMFeature />
       <FunFactStyleTwo />
       <DoctorsStyleOne />
-      <RCMFeature />
       <Footer />
     </>
   );

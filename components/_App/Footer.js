@@ -157,7 +157,7 @@ const Footer = () => {
                   <li>
                     <i className="bx bx-location-plus"></i>
                     <span>Address:</span>
-                    2071 N Collins Blvd Suite A Richardson TX 76092
+                    2071 N Collins Blvd Suite A Richardson TX 75080
                   </li>
                 </ul>
               </div>

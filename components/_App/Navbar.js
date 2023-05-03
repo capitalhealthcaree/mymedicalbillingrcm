@@ -372,7 +372,7 @@ const Navbar = () => {
                             <Link
                               href="/testimonials/"
                               className={`nav-link ${
-                                currentPath == "/blog-details/" && "active"
+                                currentPath == "/testimonials/" && "active"
                               }`}
                             >
                               Testimonials
@@ -381,9 +381,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/blog-right-sidebar/"
+                              href="/contact/"
                               className={`nav-link ${
-                                currentPath == "/blog-right-sidebar/" &&
+                                currentPath == "/contact/" &&
                                 "active"
                               }`}
                             >
@@ -403,9 +403,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/blog-left-sidebar/"
+                              href="/about/"
                               className={`nav-link ${
-                                currentPath == "/blog-left-sidebar/" && "active"
+                                currentPath == "/about/" && "active"
                               }`}
                             >
                               About Us

@@ -98,8 +98,10 @@ const ReferralManagement = () => {
                       surgical centers offer direct billing services.
                     </li>
                     <li>
-                      An HCPCS code begins with a letter followed by four
-                      digits.
+                      Have you been unable to obtain care through your insurance
+                      network, or are you seeking care outside of it? If you are
+                      experiencing these problems, you might want to consider
+                      renting instead of purchasing equipment.
                     </li>
                     <li>
                       Your physician can provide you with information regarding
@@ -107,27 +109,27 @@ const ReferralManagement = () => {
                       procedure.Check the HCPCS codes that are applicable.
                     </li>
                     <li>
-                      In order to determine the cost of these supplies in your
-                      area, you can use the FH® Medical Cost Lookup.
-                    </li>
-                    <li>
-                      Review the plan description or contact your insurance
-                      provider to determine what is covered by your policy.
-                    </li>
-                    <li>
-                      Have you been unable to obtain care through your insurance
-                      network, or are you seeking care outside of it? If you are
-                      experiencing these problems, you might want to consider
-                      renting instead of purchasing equipment.
-                    </li>
-                    <li>
                       After your procedure, you should review your bills and
                       EOBs. If you discover an incorrect code, please contact
                       the provider.
                     </li>
                     <li>
+                      Review the plan description or contact your insurance
+                      provider to determine what is covered by your policy.
+                    </li>
+
+                    <li>
+                      In order to determine the cost of these supplies in your
+                      area, you can use the FH® Medical Cost Lookup.
+                    </li>
+
+                    <li>
                       In regards to your insurance claim, you should contact
                       your insurance company again as soon as possible.
+                    </li>
+                    <li>
+                      An HCPCS code begins with a letter followed by four
+                      digits.
                     </li>
                   </ul>
                 </span>

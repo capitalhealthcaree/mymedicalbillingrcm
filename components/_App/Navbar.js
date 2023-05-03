@@ -98,6 +98,16 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
+                              href="/vaccine-management-system/"
+                              className={`nav-link ${
+                                currentPath == "/vaccine-management-system/" && "active"
+                              }`}
+                            >
+                              Vaccine Management System
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
                               href="/revenue-cycle-management"
                               className={`nav-link ${
                                 currentPath == "/services-3/" && "active"
@@ -132,7 +142,8 @@ const Navbar = () => {
                             <Link
                               href="/practice-management/"
                               className={`nav-link ${
-                                currentPath == "/practice-management/" && "active"
+                                currentPath == "/practice-management/" &&
+                                "active"
                               }`}
                             >
                               Practice Management
@@ -168,16 +179,6 @@ const Navbar = () => {
                               }`}
                             >
                               Medical Supplies
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/service-details/"
-                              className={`nav-link ${
-                                currentPath == "/service-details/" && "active"
-                              }`}
-                            >
-                              Specialty EHR
                             </Link>
                           </li>
                         </ul>

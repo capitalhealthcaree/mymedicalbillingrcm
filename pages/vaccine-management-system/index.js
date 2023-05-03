@@ -10,37 +10,69 @@ import Common2 from "../../components/Services/Common2";
 import FunFactStyleTwo from "../../components/Common/FunFactStyleTwo";
 import DoctorsStyleOne from "../../components/Common/DoctorsStyleOne";
 const data1 = {
-  heading: "Processes we follow at DME Billing Solutions",
+  heading: "Why Choose Us",
   paragraph:
-    "The billing process we follow is a straightforward and easy-to-verify one, as a responsible DME company. Our billing process for DME for our clients is as follows:",
+    "In order to ensure that you choose us over our competitors, we provide superior IT solutions.",
   dataList: [
     {
-      h: " statements And Billing Customized For Each Patient",
-      p: "Our practice of coding invoices and transactions ensures that they are efficiently documented so that they can easily be retrieved and managed. Reports and timely statements are compiled based on our observations and analytics data",
+      h: "All purpose Dashboard",
+      p: "Using our customized dashboard, you can track live updates regarding patient progress, vaccine administration, inventory levels, and supply chain activities.",
     },
     {
-      h: "Round The Clock Service Support",
-      p: "You will receive a confirmation of insurance payments that have been captured and posted to your account for reconciliation. A denial management service is available if there is a discrepancy in the payment",
+      h: "Mobile And Web App",
+      p: "As part of the product, you will receive a customized mobile and web app designed to enhance your patient's experience.",
     },
     {
-      h: "Routine Follow-up on Claims",
-      p: "Following the filing of a claim, we contact the insurer to inquire about the status of the claim submission. The processing of your request will be sped up with frequent follow-up",
+      h: "Access Data",
+      p: "The cloud hosting facilities make it possible for users to access files and data anywhere in the world and at any time.",
     },
     {
-      h: "Sourcing Support Documents",
-      p: "When clients outsource DME billing services to us, we collect invoices and other relevant transaction records for analytical purposes",
+      h: "Data Analytics",
+      p: "Real-time data collection, verification, and analysis are necessary to facilitate better decision-making.",
     },
     {
-      h: "Electronic Filing Of Claims",
-      p: "Having verified the accuracy and completeness of your records, we send them to your insurance provider in a digital format.",
+      h: "Infrastructure",
+      p: "We offer budget-friendly setup and customization services for our products.",
     },
     {
-      h: "Eligibility Check",
-      p: "Ensure that your client is entitled to claim benefits and insurance coverage by engaging providers and insurers",
+      h: "Product Set-Up",
+      p: "Customized product installation is available on-site and remotely.",
     },
   ],
 };
-
+const data2 = {
+  imgPath: "/img/referral-management/referral.png",
+  alt: "Referral Management",
+  heading: "Choosing A Referral Management System",
+  paragraph:
+    "Before choosing a referral management system, it is important to take into account the advantages listed above. The following points should be considered when choosing a referral management system:",
+  dataList: [
+    {
+      li: "A user-friendly and easy-to-navigate website is essential. This budget should be adjusted based on the amount of data and the number of users.",
+    },
+    {
+      li: "Organizations must ensure communication between specialists and consultants",
+    },
+    {
+      li: "Keeping track of referrals both in terms of time and process is important.",
+    },
+    {
+      li: "Patient profiles should include detailed information about the patient",
+    },
+    {
+      li: "Ideally, a system needs to be easy to implement and easy to adopt.",
+    },
+    {
+      li: "Scalability is necessary to handle large amounts of data.",
+    },
+    {
+      li: "Control access to data with a hierarchical user system.",
+    },
+    {
+      li: "To handle referrals, use multiple channels.",
+    },
+  ],
+};
 const ReferralManagement = () => {
   const [startDate, setStartDate] = useState(new Date());
 
@@ -49,10 +81,10 @@ const ReferralManagement = () => {
       <Navbar />
 
       <PageBanner
-        pageTitle="Durable Medical Equipment (DME)"
+        pageTitle="Vaccine Management System"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Durable Medical Equipment (DME)"
+        activePageText="Vaccine Management System"
         imgClass="bg-2"
       />
 
@@ -63,119 +95,115 @@ const ReferralManagement = () => {
             style={{ maxWidth: "1288px", textAlign: "justify" }}
           >
             <p>
-              As a result of the ever-changing regulatory compliance landscape,
-              the durable medical equipment billing industry is undergoing
-              constant revisions. For DME companies, outsourcing durable medical
-              equipment billing services is the only way to stay current with
-              the ever-changing DME billing landscape. Medical equipment
-              providers face many challenges, including declining collections,
-              billing errors, training new employees to perform billing
-              functions, and suspended operations during periods of staff
-              shortages.
-            </p>
-            <p>
-              A failure to address all existing problems can result in slow
-              productivity and revenue growth. Keeping your focus on your core
-              competencies is the most effective way to address these challenges
-              by outsourcing DME billing services to us. To ensure that your
-              reimbursements are higher and your cash flow is improved, we are
-              available round the clock.
+              Vaccine Management System enables doctors to manage, administer,
+              and outreach vaccinations at scale in an intuitive, efficient, and
+              secure manner. Facilitating the smooth management of patient
+              registration, rapid testing, outreach, scheduling administration,
+              billing, registry reporting, and outcomes monitoring for
+              healthcare organizations. By utilizing a vaccination management
+              system, Advanced Healthcare strives to improve the efficiency and
+              effectiveness of healthcare organizations. Our goal is to equip
+              them with technology to ensure that they are able to provide the
+              highest quality of care while saving their staff members time.
             </p>
           </div>
-
           <div className="row mt-5">
             <div className="col-lg-6">
               <div
                 className="section-title"
                 style={{ maxWidth: "1288px", textAlign: "justify" }}
               >
-                <h2>Things You Need to Know</h2>
+                <h2>Features And Benefits</h2>
                 <span>
                   <p>
-                    A successful billing process is crucial to ensuring timely
-                    payment of claims, which is a complex and ever-changing
-                    industry. You can gain a deeper understanding of the complex
-                    world of DME billing by considering the following items.
+                    Each step of the immunization process is tracked via our
+                    off-shore IT solutions for health organizations.
                   </p>
                 </span>
-
                 <h3>
                   <i
                     className="flaticon-tick"
                     style={{ color: "#0CB8B6", marginRight: "10px" }}
                   ></i>
-                  DME Billing
+                  Notifications By Sms And Email
                 </h3>
-
                 <p>
-                  From the time of intake to the time of claim submission, you
-                  will need to develop and maintain an efficient billing
-                  process. A proper billing process will have a positive ripple
-                  effect throughout the organization and enable providers to
-                  obtain the maximum reimbursement possible.
+                  Using SMS and email, remind patients and employees of
+                  scheduled appointments and meetings.
                 </p>
                 <h3>
                   <i
                     className="flaticon-tick"
                     style={{ color: "#0CB8B6", marginRight: "10px" }}
                   ></i>
-                  DME Billing Guidelines
+                  Maintaining Data Security
+                </h3>
+                <p>
+                  Data storage on responsible servers ensures information and
+                  data are not lost.
+                </p>
+
+                <h3>
+                  <i
+                    className="flaticon-tick"
+                    style={{ color: "#0CB8B6", marginRight: "10px" }}
+                  ></i>
+                  The Easy Way To Contact
                 </h3>
 
                 <p>
-                  The medical policies of DME payors often differ between
-                  product lines. Prior to submitting a claim, ensure that you
-                  maintain a system that keeps you informed of all changes. Keep
-                  up with all Medicare and Medicaid DME guidelines by regularly
-                  checking the CMS's website.
+                  With this all-in-one solution, you can schedule appointments
+                  automatically and respond to the receiver's FAQs.
                 </p>
                 <h3>
                   <i
                     className="flaticon-tick"
                     style={{ color: "#0CB8B6", marginRight: "10px" }}
                   ></i>
-                  Medical Billing Specialist
+                  Billing For Vaccinations
+                </h3>
+                <p>
+                  In order to streamline the billing process for vaccine
+                  recipients, it may be necessary to scan the barcodes on
+                  vaccine bottles.
+                </p>
+                <h3>
+                  <i
+                    className="flaticon-tick"
+                    style={{ color: "#0CB8B6", marginRight: "10px" }}
+                  ></i>
+                  All-In-One Dashboard
                 </h3>
 
                 <p>
-                  Ensure that all submitted claims contain all the necessary
-                  documentation and that they are accurate by working with a DME
-                  billing specialist. We are doing this in order to reduce the
-                  number of claims that are rejected. As part of their duties,
-                  they ensure compliance with payor guidelines, check and
-                  correct HCPCS codes, submit claims and follow up on them,
-                  among other things.
+                  With a single dashboard, you can monitor recipients'
+                  vaccination progress from their appointments to their final
+                  vaccination.
+                </p>
+
+                <h3>
+                  <i
+                    className="flaticon-tick"
+                    style={{ color: "#0CB8B6", marginRight: "10px" }}
+                  ></i>
+                  On Time Reports
+                </h3>
+
+                <p>
+                  Provides instantaneous information about how many vaccine
+                  doses have been administered.
                 </p>
                 <h3>
                   <i
                     className="flaticon-tick"
                     style={{ color: "#0CB8B6", marginRight: "10px" }}
                   ></i>
-                  Medical Billing For DME
+                  Sending Alerts
                 </h3>
                 <p>
-                  You can obtain DME billing assistance from DME billing
-                  services. Their services include processing claims, checking
-                  claim status, staying up-to-date on payor guidelines, as well
-                  as many other tasks. By outsourcing billing services, you can
-                  free up more time for marketing or recruiting new clients. A
-                  few things to keep in mind before selecting the right DME
-                  billing company is to make sure you gather all the necessary
-                  information so that you can make an informed choice.
-                </p>
-                <h3>
-                  <i
-                    className="flaticon-tick"
-                    style={{ color: "#0CB8B6", marginRight: "10px" }}
-                  ></i>
-                  DME Billing Companies
-                </h3>
-                <p>
-                  An experienced DME billing company can help you keep up to
-                  date on policy changes and alleviate the burden of
-                  time-consuming medical billing tasks. The use of a trusted and
-                  reputable DME billing service, such as Medbill, can result in
-                  faster payments and fewer claims being rejected.
+                  A notification is sent when a recipient misses the scheduled
+                  vaccination. Assign a senior executive to handle this matter
+                  automatically.
                 </p>
               </div>
             </div>

@@ -412,7 +412,7 @@ const Navbar = () => {
                             <Link
                               href="/faq/"
                               className={`nav-link ${
-                                currentPath == "/blog-details/" && "active"
+                                currentPath == "/faq/" && "active"
                               }`}
                             >
                               FAQs
@@ -420,20 +420,24 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/blog-grid/"
-                              className={`nav-link ${
-                                currentPath == "/blog-grid/" && "active"
-                              }`}
+                              href="#"
+                              onClick={(e) => e.preventDefault()}
+                              // href="/blog-grid/"
+                              // className={`nav-link ${
+                              //   currentPath == "/blog-grid/" && "active"
+                              // }`}
                             >
                               Blog
                             </Link>
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/blog-details/"
-                              className={`nav-link ${
-                                currentPath == "/blog-details/" && "active"
-                              }`}
+                              href="#"
+                              onClick={(e) => e.preventDefault()}
+                              // href="/blog-details/"
+                              // className={`nav-link ${
+                              //   currentPath == "/blog-details/" && "active"
+                              // }`}
                             >
                               News
                             </Link>
@@ -445,7 +449,7 @@ const Navbar = () => {
 
                   <div className="others-option">
                     <div className="subscribe">
-                      <Link href="/contact" className="default-btn">
+                      <Link href="/demo" className="default-btn">
                         Request Demo
                       </Link>
                     </div>

@@ -48,7 +48,7 @@ const MainBanner = () => {
                       data-aos-delay="400"
                       data-aos-duration="1200"
                     >
-                      <Link href="/appointment" className="default-btn">
+                      <Link href="/demo" className="default-btn">
                         Request Demo
                       </Link>
 

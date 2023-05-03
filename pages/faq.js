@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
 import Faqs from "../components/Common/Faqs";
-import ContactForm from "../components/ContactUs/ContactForm";
-
+import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
+import AppointmentForm from "../components/HomeOne/AppointmentForm";
+import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
 const Faq = () => {
   return (
     <>
@@ -20,11 +20,9 @@ const Faq = () => {
       />
 
       <Faqs />
-
-      <ContactForm />
-
-      <Subscribe />
-
+      <AppointmentForm />
+      <FunFactStyleTwo />
+      <DoctorsStyleOne />
       <Footer />
     </>
   );

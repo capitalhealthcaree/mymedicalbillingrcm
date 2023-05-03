@@ -30,7 +30,7 @@ const Services = () => {
                   and services to streamline workflows and boost productivity.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/all-in-one" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -54,7 +54,7 @@ const Services = () => {
                   reimbursement.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/medical-billing-services" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -78,7 +78,7 @@ const Services = () => {
                   patient management.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/practice-management" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -102,7 +102,7 @@ const Services = () => {
                   and payment process.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/revenue-cycle-management/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -126,7 +126,7 @@ const Services = () => {
                   and patient outcomes.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/referral-management/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -150,7 +150,7 @@ const Services = () => {
                   compliance with industry standards.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/credentialing-services/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -174,7 +174,7 @@ const Services = () => {
                   settings.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/medical-supplies/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -191,13 +191,14 @@ const Services = () => {
             >
               <div className="single-services">
                 {/* <span className="flaticon-brain"></span> */}
-                <h3>Specialty EHR</h3>
+                <h3>Vaccine Management System</h3>
                 <p>
-                  Specialty EHRs are electronic health record systems designed
-                  to meet the specific needs of particular medical specialties.
+                  Vaccine Management System enables doctors to manage,
+                  administer, and outreach vaccinations at scale in an
+                  intuitive, efficient, and secure manner.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/vaccine-management-system/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 
@@ -221,7 +222,7 @@ const Services = () => {
                   wheelchairs and oxygen tanks.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/durable-medical-equipment/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
 

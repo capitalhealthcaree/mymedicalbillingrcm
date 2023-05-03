@@ -111,7 +111,8 @@ const Navbar = () => {
                             <Link
                               href="/revenue-cycle-management"
                               className={`nav-link ${
-                                currentPath == "/services-3/" && "active"
+                                currentPath == "/revenue-cycle-management/" &&
+                                "active"
                               }`}
                             >
                               Revenue Cycle Management
@@ -132,7 +133,8 @@ const Navbar = () => {
                             <Link
                               href="/medical-billing-services/"
                               className={`nav-link ${
-                                currentPath == "/services-1/" && "active"
+                                currentPath == "/medical-billing-services/" &&
+                                "active"
                               }`}
                             >
                               Medical Billing Service
@@ -186,7 +188,11 @@ const Navbar = () => {
                       </li>
                       {/*  Billing Software */}
                       <li className="nav-item">
-                        <Link href="services-2" className="nav-link">
+                        <Link
+                          href="#"
+                          onClick={(e) => e.preventDefault()}
+                          className="nav-link"
+                        >
                           Billing Softwares <i className="bx bx-plus"></i>
                         </Link>
 

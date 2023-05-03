@@ -23,7 +23,7 @@ const Facilities = () => {
                   patient billing, revenue cycle management, and compliance.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/medisoft-billing-services/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
               </div>
@@ -45,7 +45,7 @@ const Facilities = () => {
                   record-keeping purposes.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/revenue-cycle-management/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
               </div>
@@ -67,7 +67,7 @@ const Facilities = () => {
                   processing and payment collection.
                 </p>
 
-                <Link href="/service-details" className="read-more">
+                <Link href="/revenue-cycle-management/" className="read-more">
                   Read More <i className="bx bx-plus"></i>
                 </Link>
               </div>

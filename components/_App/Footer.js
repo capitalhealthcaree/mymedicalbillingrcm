@@ -29,30 +29,30 @@ const Footer = () => {
                 <div className="social-area">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/" target="_blank">
+                      <a href="https://www.facebook.com/advancedhealthcaresolution" target="_blank">
                         <i className="bx bxl-facebook"></i>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://www.twitter.com/" target="_blank">
                         <i className="bx bxl-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://www.linkedin.com/" target="_blank">
+                      <a href="https://www.linkedin.com/company/advanced-healthcare-sol/" target="_blank">
                         <i className="bx bxl-linkedin"></i>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a
                         href="https://www.facebyoutubeook.com/"
                         target="_blank"
                       >
                         <i className="bx bxl-youtube"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a href="https://www.instagram.com/advancedhealthcaresol/" target="_blank">
                         <i className="bx bxl-instagram"></i>
                       </a>
                     </li>
@@ -71,28 +71,42 @@ const Footer = () => {
                 <h3>Services</h3>
                 <ul>
                   <li>
-                    <Link href="#">Durable Medical Equipment (DME)</Link>
+                    <Link href="/durable-medical-equipment/">
+                      Durable Medical Equipment (DME)
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#">Revenue Cycle Management</Link>
+                    <Link href="/revenue-cycle-management/">
+                      Revenue Cycle Management
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#">Credentialing Services</Link>
+                    <Link href="/credentialing-services/">
+                      Credentialing Services
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#"> Medical Billing Service</Link>
+                    <Link href="/medical-billing-services/">
+                      {" "}
+                      Medical Billing Service
+                    </Link>
                   </li>
 
                   <li>
-                    <Link href="#"> Practice Management</Link>
+                    <Link href="/practice-management/">
+                      {" "}
+                      Practice Management
+                    </Link>
                   </li>
 
                   <li>
-                    <Link href="#">Referral Management</Link>
+                    <Link href="/referral-management/">
+                      Referral Management
+                    </Link>
                   </li>
 
                   <li>
-                    <Link href="#">Medical Supplies</Link>
+                    <Link href="/medical-supplies/">Medical Supplies</Link>
                   </li>
                 </ul>
               </div>
@@ -106,26 +120,27 @@ const Footer = () => {
               >
                 <h3>Billing Softwares</h3>
                 <ul>
+                  {" "}
                   <li>
-                    <Link href="#">Medisoft Billing Software Office Ally</Link>
+                    <Link href="/intelligent-medical-billing-services/"> IMS - Intelligent Billing Software</Link>
                   </li>
                   <li>
-                    <Link href="#"> IMS - Intelligent Billing Software</Link>
+                    <Link href="/ecinicalworks-billing-services/"> eCinicalWorks Billing Software</Link>
                   </li>
                   <li>
-                    <Link href="#"> eCinicalWorks Billing Software</Link>
+                    <Link href="/chirotouch-billing-services/">ChiroTouch Billing Software</Link>
                   </li>
                   <li>
-                    <Link href="#">ChiroTouch Billing Software</Link>
+                    <Link href="/office-ally-medical-billing-services/">Medisoft Billing Software</Link>
                   </li>
                   <li>
-                    <Link href="#">Athena Billing Software</Link>
+                    <Link href="/athena-billing-services/">Athena Billing Software</Link>
                   </li>
                   <li>
-                    <Link href="#">Kareo Billing Software</Link>
+                    <Link href="/kareo-billing-services/">Kareo Billing Software</Link>
                   </li>
                   <li>
-                    <Link href="#"> Lytec Billing Software</Link>
+                    <Link href="/lytec-billing-services/"> Lytec Billing Software</Link>
                   </li>
                 </ul>
               </div>

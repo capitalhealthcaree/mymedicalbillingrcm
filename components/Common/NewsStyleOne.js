@@ -19,7 +19,11 @@ const NewsStyleOne = () => {
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link
+                  href="#"
+                  onClick={(e) => e.preventDefault()}
+                  // href="/blog-details"
+                >
                   <img src="/img/blog/blog1.jpg" alt="Image" />
                 </Link>
 
@@ -27,15 +31,30 @@ const NewsStyleOne = () => {
                 <div className="blog-content">
                   <ul>
                     <li>
-                      <Link href="#">Medical</Link>
+                      <Link
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
+                        // href="#"
+                      >
+                        Medical
+                      </Link>
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    // href="/blog-details"
+                  >
                     <h3>250+ Medical Tips We just had to share</h3>
                   </Link>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    // href="/blog-details"
+                    className="read-more"
+                  >
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>
@@ -44,7 +63,11 @@ const NewsStyleOne = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link
+                  href="#"
+                  onClick={(e) => e.preventDefault()}
+                  // href="/blog-details"
+                >
                   <img src="/img/blog/blog2.jpg" alt="Image" />
                 </Link>
 
@@ -52,15 +75,30 @@ const NewsStyleOne = () => {
                 <div className="blog-content">
                   <ul>
                     <li>
-                      <Link href="#">Treatment</Link>
+                      <Link
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
+                        // href="#"
+                      >
+                        Treatment
+                      </Link>
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    // href="/blog-details"
+                  >
                     <h3>What Can I Do To Prevent Myself & prevent Disease</h3>
                   </Link>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    // href="/blog-details"
+                    className="read-more"
+                  >
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>
@@ -69,7 +107,11 @@ const NewsStyleOne = () => {
 
             <div className="col-lg-4 col-md-6">
               <div className="single-blog">
-                <Link href="/blog-details">
+                <Link
+                  href="#"
+                  onClick={(e) => e.preventDefault()}
+                  // href="/blog-details"
+                >
                   <img src="/img/blog/blog3.jpg" alt="Image" />
                 </Link>
 
@@ -77,15 +119,31 @@ const NewsStyleOne = () => {
                 <div className="blog-content">
                   <ul>
                     <li>
-                      <Link href="#">COVID-19</Link>
+                      <Link
+                        href="#"
+                        onClick={(e) => e.preventDefault()}
+                        //  href="#"
+                      >
+                        COVID-19
+                      </Link>
                     </li>
                   </ul>
 
-                  <Link href="/blog-details">
+                  <Link
+                    // href="/blog-details"
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                  >
                     <h3>CCU For Emergency Services & Medical support</h3>
                   </Link>
 
-                  <Link href="/blog-details" className="read-more">
+                  <Link
+                    href="#"
+                    onClick={(e) => e.preventDefault()}
+                    //  href="/blog-details"
+
+                    className="read-more"
+                  >
                     Read More <i className="bx bx-plus"></i>
                   </Link>
                 </div>

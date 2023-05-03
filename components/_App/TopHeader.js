@@ -30,11 +30,22 @@ const TopHeader = () => {
             <div className="col-lg-4 col-md-3 col-sm-6">
               <ul className="header-content-right">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank">
+                  <a
+                    href="https://www.facebook.com/advancedhealthcaresolution"
+                    target="_blank"
+                  >
                     <i className="bx bxl-facebook"></i>
                   </a>
                 </li>
                 <li>
+                  <a
+                    href="https://www.linkedin.com/company/advanced-healthcare-sol/"
+                    target="_blank"
+                  >
+                    <i className="bx bxl-linkedin"></i>
+                  </a>
+                </li>
+                {/* <li>
                   <a href="https://www.twitter.com/" target="_blank">
                     <i className="bx bxl-twitter"></i>
                   </a>
@@ -43,9 +54,12 @@ const TopHeader = () => {
                   <a href="https://www.pinterest.com/" target="_blank">
                     <i className="bx bxl-pinterest-alt"></i>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/advancedhealthcaresol/"
+                    target="_blank"
+                  >
                     <i className="bx bxl-instagram"></i>
                   </a>
                 </li>

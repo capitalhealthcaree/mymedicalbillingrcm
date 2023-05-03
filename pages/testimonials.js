@@ -22,11 +22,11 @@ const Testimonials = () => {
           <div className="section-title">
             <span className="top-title">Testimonials</span>
             <h2>What Our Client’s Say</h2>
-            <p>
+            {/* <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A facilis
               vel consequatur tempora atque blanditiis exercitationem incidunt,
               alias corporis quam assumenda dicta, temporibus.
-            </p>
+            </p> */}
           </div>
 
           <div className="row">

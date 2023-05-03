@@ -100,7 +100,8 @@ const Navbar = () => {
                             <Link
                               href="/vaccine-management-system/"
                               className={`nav-link ${
-                                currentPath == "/vaccine-management-system/" && "active"
+                                currentPath == "/vaccine-management-system/" &&
+                                "active"
                               }`}
                             >
                               Vaccine Management System
@@ -192,17 +193,6 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/medisoft-billing-services/"
-                              className={`nav-link ${
-                                currentPath == "/medisoft-billing-services/" &&
-                                "active"
-                              }`}
-                            >
-                              Medisoft Billing Software
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
                               href="/intelligent-medical-billing-services/"
                               className={`nav-link ${
                                 currentPath ==
@@ -233,6 +223,30 @@ const Navbar = () => {
                               }`}
                             >
                               ChiroTouch Billing Software
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="/office-ally-medical-billing-services/"
+                              className={`nav-link ${
+                                currentPath ==
+                                  "/office-ally-medical-billing-services/" &&
+                                "active"
+                              }`}
+                            >
+                              Office Ally Billing Software
+                            </Link>
+                          </li>
+
+                          <li className="nav-item">
+                            <Link
+                              href="/medisoft-billing-services/"
+                              className={`nav-link ${
+                                currentPath == "/medisoft-billing-services/" &&
+                                "active"
+                              }`}
+                            >
+                              Medisoft Billing Software
                             </Link>
                           </li>
                           <li className="nav-item">
@@ -269,19 +283,6 @@ const Navbar = () => {
                               Lytec Billing Software
                             </Link>
                           </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/office-ally-medical-billing-services/"
-                              className={`nav-link ${
-                                currentPath ==
-                                  "/office-ally-medical-billing-services/" &&
-                                "active"
-                              }`}
-                            >
-                              Office Ally Billing Software
-                            </Link>
-                          </li>
                         </ul>
                       </li>
                       {/*  Our Clients */}
@@ -297,45 +298,51 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/doctors-1/"
-                              className={`nav-link ${
-                                currentPath == "/doctors-1/" && "active"
-                              }`}
+                              href="#"
+                              onClick={(e) => e.preventDefault()}
+                              // href="/doctors-1/"
+                              // className={`nav-link ${
+                              //   currentPath == "/doctors-1/" && "active"
+                              // }`}
                             >
-                              Doctors Style One
+                              Hospital & Health System
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="#"
+                              onClick={(e) => e.preventDefault()}
+                              // href="/doctor-details/"
+                              // className={`nav-link ${
+                              //   currentPath == "/doctor-details/" && "active"
+                              // }`}
+                            >
+                              Outsource Billing Services
+                            </Link>
+                          </li>
+                          <li className="nav-item">
+                            <Link
+                              href="#"
+                              onClick={(e) => e.preventDefault()}
+                              // href="/doctors-2/"
+                              // className={`nav-link ${
+                              //   currentPath == "/doctors-2/" && "active"
+                              // }`}
+                            >
+                              Medical Group Practices
                             </Link>
                           </li>
 
                           <li className="nav-item">
                             <Link
-                              href="/doctors-2/"
-                              className={`nav-link ${
-                                currentPath == "/doctors-2/" && "active"
-                              }`}
+                              href="#"
+                              onClick={(e) => e.preventDefault()}
+                              // href="/doctors-3/"
+                              // className={`nav-link ${
+                              //   currentPath == "/doctors-3/" && "active"
+                              // }`}
                             >
-                              Doctors Style Two
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/doctors-3/"
-                              className={`nav-link ${
-                                currentPath == "/doctors-3/" && "active"
-                              }`}
-                            >
-                              Doctors Style Three
-                            </Link>
-                          </li>
-
-                          <li className="nav-item">
-                            <Link
-                              href="/doctor-details/"
-                              className={`nav-link ${
-                                currentPath == "/doctor-details/" && "active"
-                              }`}
-                            >
-                              Doctors Details
+                              Independent Practices
                             </Link>
                           </li>
                         </ul>
@@ -391,17 +398,7 @@ const Navbar = () => {
                                 currentPath == "/blog-details/" && "active"
                               }`}
                             >
-                              Case Study
-                            </Link>
-                          </li>
-                          <li className="nav-item">
-                            <Link
-                              href="/blog-details/"
-                              className={`nav-link ${
-                                currentPath == "/blog-details/" && "active"
-                              }`}
-                            >
-                              Case Study
+                              Infographic
                             </Link>
                           </li>
                           <li className="nav-item">

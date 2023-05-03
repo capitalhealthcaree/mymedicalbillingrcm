@@ -1,11 +1,80 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import Subscribe from "../components/Common/Subscribe";
+import Common1 from "../components/Services/Common1";
+import Common2 from "../components/Services/Common2";
+import Common3 from "../components/Services/Common3";
 import Footer from "../components/_App/Footer";
 import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
-import FunFactStyleOne from "../components/Common/FunFactStyleOne";
+import AppointmentForm from "../components/HomeOne/AppointmentForm";
+import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
 
+const data1 = {
+  heading: "Our Values and Beliefs",
+  paragraph: "",
+  dataList: [
+    {
+      h: "Accountability & Integrity",
+      p: "With integrity and accountability, we deliver our services according to a client's definition of excellence",
+    },
+    {
+      h: "Continuous learning",
+      p: "In order to meet the evolving regulatory and payer guidelines, we commit ourselves to continuous learning",
+    },
+    {
+      h: "A team effort",
+      p: "By supporting each member to perform their best, we believe in mutual teamwork and create unity.",
+    },
+    {
+      h: "Intuitive",
+      p: "Through the imaginative application of technology, complex processes can be made intuitive.",
+    },
+    {
+      h: "Team of people",
+      p: "Building a team of people that match our values and are the experts at what they do",
+    },
+    {
+      h: "Culture",
+      p: "The development of a culture and the making of decisions based on our vision and values",
+    },
+  ],
+};
+const data3 = {
+  imgPath: "/img/referral-management/all-in-one-platform.png",
+  alt: "ConatctUs",
+  heading: "Why Choose Us",
+  paragraph:
+    "We strive to provide truly transformative revenue cycle management services as a revenue cycle management company. We at Advanced Healthcare are committed to being one step ahead and meeting your needs at all times. Working with us has a number of advantages.",
+  dataList: [
+    {
+      li: "Maintain compliance with industry-specific security regulations. Data security systems and encryption protocols that are at the forefront of technology.",
+    },
+    {
+      li: "The ability to minimize downtime, delays, and loss of productivity through technical and professional capabilities",
+    },
+    {
+      li: "Achieved an acceptance rate of 98% for claims on the first try and an accuracy rate of 97% for medical coding.",
+    },
+    {
+      li: "Taking advantage of value-based reimbursement models requires scaling up and streamlining operations",
+    },
+    {
+      li: "Optimise financial performance with powerful analytics tools and KPI tracking tools",
+    },
+
+    {
+      li: "Reducing AR backlogs and accelerating revenue cycles through 24/7 workflow",
+    },
+  ],
+};
+const data2 = {
+  imgPath: "/img/referral-management/intelligence-billing-software.png",
+  alt: "Referral Management",
+  heading: " Who We Are",
+  paragraph:
+    "With Advanced Healthcare, hospitals, groups, and independent practices can take control of their healthcare. Our mission is to help healthcare providers develop a revenue cycle process that is high-performing and efficient. Furthermore, we can assist medical practices in maximizing their financial and clinical outcomes through our revenue cycle experts.Consequently, providers are able to achieve a healthy revenue cycle and receive reimbursements on time and in a timely manner. Additionally, we offer medical billing services for a wide range of specialties across 32 different specialties.As a healthcare IT company, we have developed state-of-the-art products that will enable efficient workflow in the healthcare industry. Furthermore, innovative products such as Advanced Healthcare Solutions EMR and Nephrolytx are proving to be helpful in developing financial success for medical practices. The practice management process can be automated for providers in order to create an efficient, hassle-free workflow. Our goal is to ensure healthcare practices thrive in today's value-based economy while keeping them compliant with the rules of the industry at the same time.",
+  dataList: [],
+};
 const About = () => {
   return (
     <>
@@ -19,185 +88,57 @@ const About = () => {
         imgClass="bg-1"
       />
 
-      <div className="about-area about-page pb-130">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="about-img">
-                <img src="/img/about/about1.jpg" alt="Image" />
+      <Common2 data={data2} />
 
-                <div className="shape-1">
-                  <img src="/img/about/about-shape-1.png" alt="Image" />
-                </div>
+      <Common3 data={data3} />
 
-                <div className="shape-2">
-                  <img src="/img/about/about-shape-2.png" alt="Image" />
-                </div>
-
-                <div className="shape-3">
-                  <img src="/img/about/about-shape-3.png" alt="Image" />
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="about-content">
-                <span className="top-title">About Us</span>
-                <h2>We are trusted The Best Certificate Healthcare</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-
-                <ul>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Scientific skills for getting a better result
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>A good environment for work
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Professional doctors
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Digital laboratory
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Emergency services
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="about-area two ptb-100">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="about-img">
-                <img src="/img/about-two/about-two1.png" alt="Image" />
-
-                <div className="shape-1">
-                  <img src="/img/about-two/about-two-shape2.png" alt="Image" />
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6">
-              <div className="about-content">
-                <span className="top-title">About Corona</span>
-                <h2>How COV-19 Spreads</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
-                </p>
-                <strong>
-                  The best way to prevent illness is to avoid being exposed to
-                  this virus.
-                </strong>
-
-                <ul>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Clean and disinfect frequently touched surfaces
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Avoid touching your eyes, nose, and mouth
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Clean your hands with a hand sanitizer
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Cover coughs and sneezes
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Stay home if you’re sick
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Wear a facemask if sick
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Cover your mouth and nose
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <DoctorsStyleOne />
-
-      <div className="about-area four abouts-six">
+      <div className="client-area ptb-1">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-6">
-              <div className="about-content ml-auto">
-                <span className="top-title">About Us</span>
-                <h2>Free Medical Camp Importance & Objectives</h2>
+            <div className="col-lg-6 col-md-6">
+              <div
+                className="single-client mr-0 ml-0"
+                style={{ backgroundColor: "#D6FBFD" }}
+              >
+                <h2>Mission</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel facilisis.
+                  With the assistance of our healthcare IT products, we aim to
+                  make healthcare providers' businesses successful and enable
+                  them to utilize the most cutting-edge healthcare IT solutions.
+                  Additionally, we provide medical billing and coding services
+                  that facilitate the revenue cycle process for medical
+                  practices of all sizes. Furthermore, Advanced Healthcare
+                  ensures your practice is financially sustainable and generates
+                  substantial revenue.
                 </p>
-
-                <ul>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Registration of Deserving Cases for Surgeries
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Hepatitis B & C Screening Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Consultation & Medicine
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Blood Pressure Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Free Diabetes Test
-                  </li>
-                  <li>
-                    <i className="flaticon-tick"></i>
-                    Childbirth
-                  </li>
-                </ul>
               </div>
             </div>
 
-            <div className="col-lg-6 pr-0">
-              <div className="about-img about-img-2"></div>
+            <div className="col-lg-6 col-md-6">
+              <div
+                className="single-client mr-0 ml-0"
+                style={{ backgroundColor: "#D6FBFD" }}
+              >
+                <h2>Vision</h2>
+                <p>
+                  As a medical practice, you face many complex problems that
+                  must be solved. Additionally, we envision a healthcare
+                  industry that utilizes technology-enabled solutions to
+                  streamline its operations. As such, Advanced Healthcare
+                  Solutions is committed to enhancing physicians' revenue cycle
+                  and helping them achieve financial success. As a healthcare
+                  solutions provider, we ensure that the providers are fully
+                  focused on delivering quality healthcare to patients.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <FunFactStyleOne />
-
-      <Subscribe />
-
+      <Common1 data={data1} />
+      <AppointmentForm />
+      <FunFactStyleTwo />
+      <DoctorsStyleOne />
       <Footer />
     </>
   );

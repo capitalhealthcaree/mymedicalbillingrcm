@@ -4,9 +4,9 @@ import PageBanner from "../components/Common/PageBanner";
 import ContactInfo from "../components/ContactUs/ContactInfo";
 import Common2 from "../components/Services/Common2";
 import AppointmentForm from "../components/HomeOne/AppointmentForm";
-import Footer from "../components/_App/Footer";
 import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
 import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
+import Footer from "../components/_App/Footer";
 
 const data2 = {
   imgPath: "/img/referral-management/all-in-one-platform.png",

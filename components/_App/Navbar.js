@@ -383,8 +383,7 @@ const Navbar = () => {
                             <Link
                               href="/contact/"
                               className={`nav-link ${
-                                currentPath == "/contact/" &&
-                                "active"
+                                currentPath == "/contact/" && "active"
                               }`}
                             >
                               Contact Us
@@ -393,10 +392,8 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/blog-details/"
-                              className={`nav-link ${
-                                currentPath == "/blog-details/" && "active"
-                              }`}
+                              href="/img/Advanced-Healthcare-solutions-Infography.pdf"
+                              className="nav-link"
                             >
                               Infographic
                             </Link>

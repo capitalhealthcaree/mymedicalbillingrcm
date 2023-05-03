@@ -119,7 +119,85 @@ const TestimonialStyleOne = () => {
                 {/* <span>Team Leader</span> */}
               </div>
             </SwiperSlide>
-            
+            <SwiperSlide>
+              <div className="single-client mr-0 ml-0">
+                <img src="/img/client/client4.jpg" alt="img" />
+
+                <p>
+                  We had developed trust in the billing system after using it
+                  for three years, which led us to choose Advanced Healthcare
+                  Solutions for our EMR system. One of the key factors in our
+                  decision was the ability to add and customize features, which
+                  has made using the system highly efficient.
+                </p>
+
+                <ul>
+                  {[1, 2, 3, 4, 5].map((item, i) => (
+                    <li
+                      style={{ color: "#F7C000" }}
+                      className="bx bxs-star"
+                      key={i}
+                    ></li>
+                  ))}
+                </ul>
+
+                <h3>Jessica Pigott</h3>
+                {/* <span>Company CEO</span> */}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-client mr-0 ml-0">
+                <img src="/img/client/client5.jpg" alt="img" />
+
+                <p>
+                  During the exploratory, planning, and implementation stages of
+                  our project, working with Advanced Healthcare Solutions was a
+                  great experience. Despite the challenges of the pandemic, we
+                  decided to proceed with the transition of EMR's, and the team
+                  at Advanced Healthcare Solutions was incredibly patient and
+                  gracious throughout the process.
+                </p>
+
+                <ul>
+                  {[1, 2, 3, 4, 5].map((item, i) => (
+                    <li
+                      style={{ color: "#F7C000" }}
+                      className="bx bxs-star"
+                      key={i}
+                    ></li>
+                  ))}
+                </ul>
+
+                <h3>Grant Elliot</h3>
+                {/* <span>Medical Founder</span> */}
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="single-client mr-0 ml-0">
+                <img src="/img/client/jessica-pigott.jpg" alt="img" />
+
+                <p>
+                  What sets Advanced Healthcare Solutions apart is its
+                  cloud-based infrastructure and highly customizable platform.
+                  The templates are easily tailored to meet the unique needs of
+                  our practice, making it a highly flexible and adaptable
+                  solution.
+                </p>
+
+                <ul>
+                  {[1, 2, 3, 4, 5].map((item, i) => (
+                    <li
+                      style={{ color: "#F7C000" }}
+                      className="bx bxs-star"
+                      key={i}
+                    ></li>
+                  ))}
+                </ul>
+
+                <h3>Nancy Bowles</h3>
+                {/* <span>Medical Manager</span> */}
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
       </div>

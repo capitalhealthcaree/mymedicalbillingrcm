@@ -58,9 +58,9 @@ const OurWorks = () => {
                       and managing revenue cycle operations.
                     </p>
 
-                    <Link href="/service-details" className="read-more">
+                    {/* <Link href="/service-details" className="read-more">
                       Details <i className="bx bx-plus"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -83,9 +83,9 @@ const OurWorks = () => {
                       wide range of medical and surgical services to patients.
                     </p>
 
-                    <Link href="/service-details" className="read-more">
+                    {/* <Link href="/service-details" className="read-more">
                       Details <i className="bx bx-plus"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
@@ -108,9 +108,9 @@ const OurWorks = () => {
                       conditions in patients.
                     </p>
 
-                    <Link href="/service-details" className="read-more">
+                    {/* <Link href="/service-details" className="read-more">
                       Details <i className="bx bx-plus"></i>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

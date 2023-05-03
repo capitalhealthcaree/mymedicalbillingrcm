@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
@@ -113,7 +113,6 @@ const ReferralManagement = () => {
   return (
     <>
       <Navbar />
-
       <PageBanner
         pageTitle="All-in-One"
         homePageUrl="/"

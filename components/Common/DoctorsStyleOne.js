@@ -5,7 +5,7 @@ import { Navigation, Autoplay } from "swiper";
 const DoctorsStyleOne = () => {
   return (
     <>
-      <div className="doctors-area pt-5 pb-5">
+      <div className="doctors-area pt-5 pb-5" style={{backgroundColor:"#D6FBFD"}}>
         <div className="container">
           <div className="section-title">
             {/* <span className="top-title">Our Doctors</span> */}

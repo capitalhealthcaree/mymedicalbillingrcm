@@ -426,12 +426,12 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="#"
-                              onClick={(e) => e.preventDefault()}
-                              // href="/blog-grid/"
-                              // className={`nav-link ${
-                              //   currentPath == "/blog-grid/" && "active"
-                              // }`}
+                              // href="#"
+                              // onClick={(e)/ => e.preventDefault()}
+                              href="/blog/"
+                              className={`nav-link ${
+                                currentPath == "/blog/" && "active"
+                              }`}
                             >
                               Blog
                             </Link>

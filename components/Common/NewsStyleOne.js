@@ -1,159 +1,54 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import axios from "axios";
 
-const NewsStyleOne = () => {
-  return (
-    <>
-      <div className="blog-area pt-100 pb-70">
-        <div className="container">
-          <div className="section-title">
-            <span className="top-title">News</span>
-            <h2>Our Latest News</h2>
-            {/* <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus
-            </p> */}
-          </div>
+const Blogs = () => {
+	const [items, setItems] = useState([]);
+	const apiCall = async () => {
+		const posts = await axios.get(
+			"https://rcmbackend.vercel.app/api/v1/blog/getLastThree"
+		);
+		setItems(posts.data.data);
+	};
+	useEffect(() => {
+		apiCall();
+	}, []);
+	return (
+		<>
+			<div className="blog-area pt-100 pb-70">
+				<div className="container">
+					<div className="section-title">
+						<span className="top-title">Blogs</span>
+						<h2>Our Latest Blogs</h2>
+					</div>
 
-          <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog">
-                <Link
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  // href="/blog-details"
-                >
-                  <img src="/img/blog/blog1.jpg" alt="Image" />
-                </Link>
+					<div className="row justify-content-center">
+						{items.map((data, i) => {
+							return (
+								<div className="col-lg-4 col-md-6" key={i}>
+									<div className="single-blog">
+										<Link href={`/blog/${data.slug}`}>
+											<img src={data.image} alt={data.seoTitle[0]} />
+										</Link>
 
-                <span>10 May 2020</span>
-                <div className="blog-content">
-                  <ul>
-                    <li>
-                      <Link
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
-                        // href="#"
-                      >
-                        Medical
-                      </Link>
-                    </li>
-                  </ul>
+										<div className="blog-content">
+											<Link href={`/blog/${data.slug}`}>
+												<h3>{data.seoTitle[0]}</h3>
+											</Link>
 
-                  <Link
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    // href="/blog-details"
-                  >
-                    <h3>250+ Medical Tips We just had to share</h3>
-                  </Link>
-
-                  <Link
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    // href="/blog-details"
-                    className="read-more"
-                  >
-                    Read More <i className="bx bx-plus"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog">
-                <Link
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  // href="/blog-details"
-                >
-                  <img src="/img/blog/blog2.jpg" alt="Image" />
-                </Link>
-
-                <span>11 May 2020</span>
-                <div className="blog-content">
-                  <ul>
-                    <li>
-                      <Link
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
-                        // href="#"
-                      >
-                        Treatment
-                      </Link>
-                    </li>
-                  </ul>
-
-                  <Link
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    // href="/blog-details"
-                  >
-                    <h3>What Can I Do To Prevent Myself & prevent Disease</h3>
-                  </Link>
-
-                  <Link
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    // href="/blog-details"
-                    className="read-more"
-                  >
-                    Read More <i className="bx bx-plus"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6">
-              <div className="single-blog">
-                <Link
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  // href="/blog-details"
-                >
-                  <img src="/img/blog/blog3.jpg" alt="Image" />
-                </Link>
-
-                <span>13 May 2020</span>
-                <div className="blog-content">
-                  <ul>
-                    <li>
-                      <Link
-                        href="#"
-                        onClick={(e) => e.preventDefault()}
-                        //  href="#"
-                      >
-                        COVID-19
-                      </Link>
-                    </li>
-                  </ul>
-
-                  <Link
-                    // href="/blog-details"
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    <h3>CCU For Emergency Services & Medical support</h3>
-                  </Link>
-
-                  <Link
-                    href="#"
-                    onClick={(e) => e.preventDefault()}
-                    //  href="/blog-details"
-
-                    className="read-more"
-                  >
-                    Read More <i className="bx bx-plus"></i>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+											<Link href={`/blog/${data.slug}`} className="read-more">
+												Read More <i className="bx bx-plus"></i>
+											</Link>
+										</div>
+									</div>
+								</div>
+							);
+						})}
+					</div>
+				</div>
+			</div>
+		</>
+	);
 };
 
-export default NewsStyleOne;
+export default Blogs;

@@ -27,16 +27,16 @@ const Blogs = () => {
 							return (
 								<div className="col-lg-4 col-md-6" key={i}>
 									<div className="single-blog">
-										<Link href={`/blog/${data.slug}`}>
+										<Link href={`/blog${data.slug}`}>
 											<img src={data.image} alt={data.seoTitle[0]} />
 										</Link>
 
 										<div className="blog-content">
-											<Link href={`/blog/${data.slug}`}>
+											<Link href={`/blog${data.slug}`}>
 												<h3>{data.seoTitle[0]}</h3>
 											</Link>
 
-											<Link href={`/blog/${data.slug}`} className="read-more">
+											<Link href={`/blog${data.slug}`} className="read-more">
 												Read More <i className="bx bx-plus"></i>
 											</Link>
 										</div>

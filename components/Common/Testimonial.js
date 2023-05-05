@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper";
 
-const TestimonialStyleOne = () => {
+const Testimonial = () => {
   return (
     <>
       <div className="client-area c-bg pt-5 pb-5">
@@ -205,4 +205,4 @@ const TestimonialStyleOne = () => {
   );
 };
 
-export default TestimonialStyleOne;
+export default Testimonial;

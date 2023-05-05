@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
 
-const DoctorsStyleOne = () => {
+const ExistingEMR = () => {
   return (
     <>
       <div className="doctors-area pt-5 pb-5" style={{backgroundColor:"#D6FBFD"}}>
@@ -70,4 +70,4 @@ const DoctorsStyleOne = () => {
   );
 };
 
-export default DoctorsStyleOne;
+export default ExistingEMR;

@@ -4,9 +4,9 @@ import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 import Common2 from "../../components/Services/Common2";
 import Common3 from "../../components/Services/Common3";
-import AppointmentForm from "../../components/HomeOne/AppointmentForm";
-import FunFactStyleTwo from "../../components/Common/FunFactStyleTwo";
-import DoctorsStyleOne from "../../components/Common/DoctorsStyleOne";
+import AppointmentForm from "../../components/Home/AppointmentForm";
+import OurPromise from "../../components/Common/OurPromise";
+import ExistingEMR from "../../components/Common/ExistingEMR";
 
 const data1 = {
   imgPath: "/img/referral-management/specialty-ehr.png",
@@ -126,8 +126,8 @@ const ReferralManagement = () => {
       <AppointmentForm />
       <Common2 data={data3} />
       <Common3 data={data4} />
-      <FunFactStyleTwo />
-      <DoctorsStyleOne />
+      <OurPromise />
+      <ExistingEMR />
       <Footer />
     </>
   );

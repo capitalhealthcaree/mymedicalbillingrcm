@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
-import SimpleDemoForm from "../../components/SimpleDemoForm";
+import SimpleDemoRequestForm from "../../components/DemoRequestForm/SimpleDemoRequestForm";
 import MBSFeature from "../../components/Services/MBS";
-import FunFactStyleTwo from "../../components/Common/FunFactStyleTwo";
-import DoctorsStyleOne from "../../components/Common/DoctorsStyleOne";
+import OurPromise from "../../components/Common/OurPromise";
+import ExistingEMR from "../../components/Common/ExistingEMR";
 
 const MBS = () => {
   return (
@@ -199,13 +199,13 @@ const MBS = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <SimpleDemoForm />
+              <SimpleDemoRequestForm />
             </div>
           </div>
         </div>
       </div>
-      <FunFactStyleTwo />
-      <DoctorsStyleOne />
+      <OurPromise />
+      <ExistingEMR />
       <MBSFeature />
       <Footer />
     </>

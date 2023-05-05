@@ -1,17 +1,16 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
-import MainBanner from "../components/HomeOne/MainBanner";
-import Facilities from "../components/HomeOne/Facility";
-import AboutUs from "../components/HomeOne/AboutUs";
-import Services from "../components/HomeOne/Services";
-import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
-import OurWorks from "../components/HomeOne/OurWorks";
-import FunFactStyleOne from "../components/Common/FunFactStyleOne";
-import AppointmentForm from "../components/HomeOne/AppointmentForm";
-import TestimonialStyleOne from "../components/Common/TestimonialStyleOne";
-import NewsStyleOne from "../components/Common/NewsStyleOne";
+import MainBanner from "../components/Home/MainBanner";
+import Facilities from "../components/Home/Facility";
+import AboutUs from "../components/Home/AboutUs";
+import Services from "../components/Home/Services";
+import OurPromise from "../components/Common/OurPromise";
+import ExistingEMR from "../components/Common/ExistingEMR";
+import OurWorks from "../components/Home/OurWorks";
+import AppointmentForm from "../components/Home/AppointmentForm";
+import Testimonial from "../components/Common/Testimonial";
+import News from "../components/Home/News";
 import Footer from "../components/_App/Footer";
-import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
 
 const Index = () => {
   return (
@@ -26,17 +25,17 @@ const Index = () => {
 
       <Services />
 
-      <FunFactStyleTwo />
+      <OurPromise />
 
-      <DoctorsStyleOne />
+      <ExistingEMR />
 
       <OurWorks />
 
       <AppointmentForm />
 
-      <TestimonialStyleOne />
+      <Testimonial />
 
-      <NewsStyleOne />
+      <News />
 
       <Footer />
     </>

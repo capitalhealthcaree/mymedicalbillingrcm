@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import Subscribe from "../components/Common/Subscribe";
 import Footer from "../components/_App/Footer";
 
 const PrivacyPolicy = () => {

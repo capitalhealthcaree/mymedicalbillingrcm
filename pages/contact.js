@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import ContactInfo from "../components/ContactUs/ContactInfo";
+import ContactInfo from "../components";
 import Common2 from "../components/Services/Common2";
 import AppointmentForm from "../components/HomeOne/AppointmentForm";
-import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
-import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
+import OurPromise from "../components/Common/OurPromise";
+import ExistingEMR from "../components/Common/ExistingEMR";
 import Footer from "../components/_App/Footer";
 
 const data2 = {
@@ -51,8 +51,8 @@ const Contact = () => {
       <Common2 data={data2} />
       <ContactInfo />
       <AppointmentForm />
-      <FunFactStyleTwo />
-      <DoctorsStyleOne />
+      <OurPromise />
+      <ExistingEMR />
       <Footer />
     </>
   );

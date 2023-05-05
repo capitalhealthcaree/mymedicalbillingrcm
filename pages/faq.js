@@ -3,9 +3,9 @@ import Navbar from "../components/_App/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 import Faqs from "../components/Common/Faqs";
-import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
+import ExistingEMR from "../components/Common/ExistingEMR";
 import AppointmentForm from "../components/HomeOne/AppointmentForm";
-import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
+import OurPromise from "../components/Common/OurPromise";
 const Faq = () => {
   return (
     <>
@@ -21,8 +21,8 @@ const Faq = () => {
 
       <Faqs />
       <AppointmentForm />
-      <FunFactStyleTwo />
-      <DoctorsStyleOne />
+      <OurPromise />
+      <ExistingEMR />
       <Footer />
     </>
   );

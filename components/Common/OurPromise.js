@@ -1,6 +1,6 @@
 import React from "react";
 
-const FunFactStyleTwo = () => {
+const OurPromise = () => {
   return (
     <>
       <div className="counter-area two pt-5 pb-2">
@@ -130,4 +130,4 @@ const FunFactStyleTwo = () => {
   );
 };
 
-export default FunFactStyleTwo;
+export default OurPromise;

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
-import BlogSidebar from "../../components/Blog/BlogSidebar";
+import BlogSidebar from "../../components/BlogSidebar";
 import axios from "axios";
 
 const BlogGrid = ({ items }) => {

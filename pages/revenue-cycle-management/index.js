@@ -3,9 +3,9 @@ import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 import RCMFeature from "../../components/Services/RCM";
-import FunFactStyleTwo from "../../components/Common/FunFactStyleTwo";
-import DoctorsStyleOne from "../../components/Common/DoctorsStyleOne";
-import SimpleDemoForm from "../../components/SimpleDemoForm";
+import OurPromise from "../../components/Common/OurPromise";
+import ExistingEMR from "../../components/Common/ExistingEMR";
+import SimpleDemoRequestForm from "../../components/DemoRequestForm/SimpleDemoRequestForm";
 
 const RCM = () => {
   return (
@@ -298,14 +298,14 @@ const RCM = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <SimpleDemoForm/>
+              <SimpleDemoRequestForm />
             </div>
           </div>
         </div>
       </div>
       <RCMFeature />
-      <FunFactStyleTwo />
-      <DoctorsStyleOne />
+      <OurPromise />
+      <ExistingEMR />
       <Footer />
     </>
   );

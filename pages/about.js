@@ -4,9 +4,8 @@ import PageBanner from "../components/Common/PageBanner";
 import Common1 from "../components/Services/Common1";
 import Common2 from "../components/Services/Common2";
 import Common3 from "../components/Services/Common3";
-import DoctorsStyleOne from "../components/Common/DoctorsStyleOne";
+import ExistingEMR from "../components/Common/ExistingEMR";
 import AppointmentForm from "../components/HomeOne/AppointmentForm";
-import FunFactStyleTwo from "../components/Common/FunFactStyleTwo";
 import Footer from "../components/_App/Footer";
 
 const data1 = {
@@ -137,8 +136,8 @@ const About = () => {
       </div>
       <Common1 data={data1} />
       <AppointmentForm />
-      <FunFactStyleTwo />
-      <DoctorsStyleOne />
+      <OurPromise />
+      <ExistingEMR />
       <Footer />
     </>
   );

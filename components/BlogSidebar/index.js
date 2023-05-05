@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import LeftSideBlogForm from "../LeftSideBlogForm";
+import LeftSideBlogForm from "../DemoRequestForm/LeftSideDemoRequestForm";
 import axios from "axios";
 const BlogSidebar = ({ newsFlag }) => {
   const endURL = newsFlag ? "/news/popularNews" : "/blog/popularBlogs";

@@ -4,7 +4,7 @@ import PageBanner from "../components/Common/PageBanner";
 import OurPromise from "../components/Common/OurPromise";
 import ExistingEMR from "../components/Common/ExistingEMR";
 import Footer from "../components/_App/Footer";
-import AppointmentForm from "../components/HomeOne/AppointmentForm";
+import AppointmentForm from "../components/Home/AppointmentForm";
 
 const Testimonials = () => {
   return (

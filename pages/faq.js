@@ -4,7 +4,7 @@ import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/_App/Footer";
 import Faqs from "../components/Common/Faqs";
 import ExistingEMR from "../components/Common/ExistingEMR";
-import AppointmentForm from "../components/HomeOne/AppointmentForm";
+import AppointmentForm from "../components/Home/AppointmentForm";
 import OurPromise from "../components/Common/OurPromise";
 const Faq = () => {
   return (

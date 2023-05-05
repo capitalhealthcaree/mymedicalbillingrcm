@@ -87,9 +87,9 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/durable-medical-equipment/"
+                              href="/durable-medical-equipment"
                               className={`nav-link ${
-                                currentPath == "/durable-medical-equipment/" &&
+                                currentPath == "/durable-medical-equipment" &&
                                 "active"
                               }`}
                             >
@@ -98,9 +98,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/vaccine-management-system/"
+                              href="/vaccine-management-system"
                               className={`nav-link ${
-                                currentPath == "/vaccine-management-system/" &&
+                                currentPath == "/vaccine-management-system" &&
                                 "active"
                               }`}
                             >
@@ -111,7 +111,7 @@ const Navbar = () => {
                             <Link
                               href="/revenue-cycle-management"
                               className={`nav-link ${
-                                currentPath == "/revenue-cycle-management/" &&
+                                currentPath == "/revenue-cycle-management" &&
                                 "active"
                               }`}
                             >
@@ -120,9 +120,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/credentialing-services/"
+                              href="/credentialing-services"
                               className={`nav-link ${
-                                currentPath == "/credentialing-services/" &&
+                                currentPath == "/credentialing-services" &&
                                 "active"
                               }`}
                             >
@@ -131,9 +131,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/medical-billing-services/"
+                              href="/medical-billing-services"
                               className={`nav-link ${
-                                currentPath == "/medical-billing-services/" &&
+                                currentPath == "/medical-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -143,9 +143,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/practice-management/"
+                              href="/practice-management"
                               className={`nav-link ${
-                                currentPath == "/practice-management/" &&
+                                currentPath == "/practice-management" &&
                                 "active"
                               }`}
                             >
@@ -155,9 +155,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/referral-management/"
+                              href="/referral-management"
                               className={`nav-link ${
-                                currentPath == "/referral-management/" &&
+                                currentPath == "/referral-management" &&
                                 "active"
                               }`}
                             >
@@ -166,9 +166,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/all-in-one/"
+                              href="/all-in-one"
                               className={`nav-link ${
-                                currentPath == "/all-in-one/" && "active"
+                                currentPath == "/all-in-one" && "active"
                               }`}
                             >
                               All-in-One Platform
@@ -176,9 +176,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/medical-supplies/"
+                              href="/medical-supplies"
                               className={`nav-link ${
-                                currentPath == "/medical-supplies/" && "active"
+                                currentPath == "/medical-supplies" && "active"
                               }`}
                             >
                               Medical Supplies
@@ -199,10 +199,10 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/intelligent-medical-billing-services/"
+                              href="/intelligent-medical-billing-services"
                               className={`nav-link ${
                                 currentPath ==
-                                  "/intelligent-medical-billing-services/" &&
+                                  "/intelligent-medical-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -211,10 +211,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/ecinicalworks-billing-services/"
+                              href="/ecinicalworks-billing-services"
                               className={`nav-link ${
                                 currentPath ==
-                                  "/ecinicalworks-billing-services/" && "active"
+                                  "/ecinicalworks-billing-services" && "active"
                               }`}
                             >
                               eCinicalWorks Billing Software
@@ -222,10 +222,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/chirotouch-billing-services/"
+                              href="/chirotouch-billing-services"
                               className={`nav-link ${
                                 currentPath ==
-                                  "/chirotouch-billing-services/" && "active"
+                                  "/chirotouch-billing-services" && "active"
                               }`}
                             >
                               ChiroTouch Billing Software
@@ -233,10 +233,10 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/office-ally-medical-billing-services/"
+                              href="/office-ally-medical-billing-services"
                               className={`nav-link ${
                                 currentPath ==
-                                  "/office-ally-medical-billing-services/" &&
+                                  "/office-ally-medical-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -246,9 +246,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/medisoft-billing-services/"
+                              href="/medisoft-billing-services"
                               className={`nav-link ${
-                                currentPath == "/medisoft-billing-services/" &&
+                                currentPath == "/medisoft-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -257,9 +257,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/athena-billing-services/"
+                              href="/athena-billing-services"
                               className={`nav-link ${
-                                currentPath == "/athena-billing-services/" &&
+                                currentPath == "/athena-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -269,9 +269,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/kareo-billing-services/"
+                              href="/kareo-billing-services"
                               className={`nav-link ${
-                                currentPath == "/kareo-billing-services/" &&
+                                currentPath == "/kareo-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -280,9 +280,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/lytec-billing-services/"
+                              href="/lytec-billing-services"
                               className={`nav-link ${
-                                currentPath == "/lytec-billing-services/" &&
+                                currentPath == "/lytec-billing-services" &&
                                 "active"
                               }`}
                             >
@@ -366,9 +366,9 @@ const Navbar = () => {
                         <ul className="dropdown-menu">
                           <li className="nav-item">
                             <Link
-                              href="/privacy-policy/"
+                              href="/privacy-policy"
                               className={`nav-link ${
-                                currentPath == "/privacy-policy/" && "active"
+                                currentPath == "/privacy-policy" && "active"
                               }`}
                             >
                               Privacy Policy
@@ -376,9 +376,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/testimonials/"
+                              href="/testimonials"
                               className={`nav-link ${
-                                currentPath == "/testimonials/" && "active"
+                                currentPath == "/testimonials" && "active"
                               }`}
                             >
                               Testimonials
@@ -387,9 +387,9 @@ const Navbar = () => {
 
                           <li className="nav-item">
                             <Link
-                              href="/contact/"
+                              href="/contact"
                               className={`nav-link ${
-                                currentPath == "/contact/" && "active"
+                                currentPath == "/contact" && "active"
                               }`}
                             >
                               Contact Us
@@ -406,9 +406,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/about/"
+                              href="/about"
                               className={`nav-link ${
-                                currentPath == "/about/" && "active"
+                                currentPath == "/about" && "active"
                               }`}
                             >
                               About Us
@@ -416,9 +416,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/faq/"
+                              href="/faq"
                               className={`nav-link ${
-                                currentPath == "/faq/" && "active"
+                                currentPath == "/faq" && "active"
                               }`}
                             >
                               FAQs
@@ -426,9 +426,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/news/"
+                              href="/news"
                               className={`nav-link ${
-                                currentPath == "/news/" && "active"
+                                currentPath == "/news" && "active"
                               }`}
                             >
                               News
@@ -436,9 +436,9 @@ const Navbar = () => {
                           </li>
                           <li className="nav-item">
                             <Link
-                              href="/blog/"
+                              href="/blog"
                               className={`nav-link ${
-                                currentPath == "/blog/" && "active"
+                                currentPath == "/blog" && "active"
                               }`}
                             >
                               Blog

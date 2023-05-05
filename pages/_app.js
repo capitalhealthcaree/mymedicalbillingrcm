@@ -6,9 +6,7 @@ import "../styles/animate.css";
 import "../styles/meanmenu.css";
 import "../styles/boxicons.min.css";
 import "../styles/flaticon.css";
-import "../node_modules/react-modal-video/css/modal-video.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
-import "react-datepicker/dist/react-datepicker.css";
 import "swiper/css";
 import "swiper/css/bundle";
 

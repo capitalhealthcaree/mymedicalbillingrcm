@@ -114,10 +114,6 @@ const MainBanner = () => {
                     </div>
                   </div>
                 </div>
-
-                {/* <div className="shape">
-                  <img src="/img/shape/shape1.png" alt="Image" />
-                </div> */}
               </div>
             </div>
           </div>

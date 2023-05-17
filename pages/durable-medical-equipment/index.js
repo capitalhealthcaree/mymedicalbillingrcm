@@ -1,4 +1,6 @@
 import React from "react";
+import Head from "next/head";
+import { useRouter } from "next/router";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
@@ -40,8 +42,34 @@ const data1 = {
 };
 
 const ReferralManagement = () => {
+  const router = useRouter();
+
   return (
     <>
+      <Head>
+        <title>Durable Medical Equipment (DME)</title>
+        <meta content="text/html; charset=utf-8" httpEquiv="Content-Type" />
+        <meta content="initial-scale=1" name="viewport" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta
+          name="description"
+          content="From the time of intake to the time of claim submission, you will need to develop and maintain an efficient billing process."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:site_name"
+          content="https://mymedicalbillingrcm.com"
+        />
+        <meta
+          property="og:url"
+          content={`https://mymedicalbillingrcm.com${router.asPath}`}
+        />
+        <meta property="og:title" content="Durable Medical Equipment (DME)" />
+        <meta
+          property="og:description"
+          content="From the time of intake to the time of claim submission, you will need to develop and maintain an efficient billing process."
+        />
+      </Head>
       <Navbar />
 
       <PageBanner

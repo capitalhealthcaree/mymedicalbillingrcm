@@ -76,13 +76,19 @@ const Navbar = () => {
                       </li>
                       {/* Services */}
                       <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                        <div
+                          style={{
+                            fontWeight: "600",
+                            fontSize: "15px",
+                            color: "#ffffff",
+                            transition: "all 0.5s",
+                            margin: "0 10px",
+                            padding: "0",
+                            position: "relative",
+                          }}
                         >
                           Services <i className="bx bx-plus"></i>
-                        </Link>
+                        </div>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
@@ -188,13 +194,19 @@ const Navbar = () => {
                       </li>
                       {/*  Billing Software */}
                       <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                        <div
+                          style={{
+                            fontWeight: "600",
+                            fontSize: "15px",
+                            color: "#ffffff",
+                            transition: "all 0.5s",
+                            margin: "0 10px",
+                            padding: "0",
+                            position: "relative",
+                          }}
                         >
                           Billing Softwares <i className="bx bx-plus"></i>
-                        </Link>
+                        </div>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
@@ -224,8 +236,8 @@ const Navbar = () => {
                             <Link
                               href="/chirotouch-billing-services"
                               className={`nav-link ${
-                                currentPath ==
-                                  "/chirotouch-billing-services" && "active"
+                                currentPath == "/chirotouch-billing-services" &&
+                                "active"
                               }`}
                             >
                               ChiroTouch Billing Software
@@ -293,13 +305,19 @@ const Navbar = () => {
                       </li>
                       {/*  Our Clients */}
                       <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                        <div
+                          style={{
+                            fontWeight: "600",
+                            fontSize: "15px",
+                            color: "#ffffff",
+                            transition: "all 0.5s",
+                            margin: "0 10px",
+                            padding: "0",
+                            position: "relative",
+                          }}
                         >
                           Our Clients <i className="bx bx-plus"></i>
-                        </Link>
+                        </div>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">
@@ -355,13 +373,19 @@ const Navbar = () => {
                       </li>
                       {/*  Company */}
                       <li className="nav-item">
-                        <Link
-                          href="#"
-                          onClick={(e) => e.preventDefault()}
-                          className="nav-link"
+                        <div
+                          style={{
+                            fontWeight: "600",
+                            fontSize: "15px",
+                            color: "#ffffff",
+                            transition: "all 0.5s",
+                            margin: "0 10px",
+                            padding: "0",
+                            position: "relative",
+                          }}
                         >
                           Company <i className="bx bx-plus"></i>
-                        </Link>
+                        </div>
 
                         <ul className="dropdown-menu">
                           <li className="nav-item">

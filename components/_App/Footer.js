@@ -29,7 +29,10 @@ const Footer = () => {
                 <div className="social-area">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/advancedhealthcaresolution" target="_blank">
+                      <a
+                        href="https://www.facebook.com/advancedhealthcaresolution"
+                        target="_blank"
+                      >
                         <i className="bx bxl-facebook"></i>
                       </a>
                     </li>
@@ -39,7 +42,10 @@ const Footer = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a href="https://www.linkedin.com/company/advanced-healthcare-sol/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/company/advanced-healthcare-sol/"
+                        target="_blank"
+                      >
                         <i className="bx bxl-linkedin"></i>
                       </a>
                     </li>
@@ -52,7 +58,10 @@ const Footer = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a href="https://www.instagram.com/advancedhealthcaresol/" target="_blank">
+                      <a
+                        href="https://www.instagram.com/advancedhealthcaresol/"
+                        target="_blank"
+                      >
                         <i className="bx bxl-instagram"></i>
                       </a>
                     </li>
@@ -122,25 +131,42 @@ const Footer = () => {
                 <ul>
                   {" "}
                   <li>
-                    <Link href="/intelligent-medical-billing-services/"> IMS - Intelligent Billing Software</Link>
+                    <Link href="/intelligent-medical-billing-services/">
+                      {" "}
+                      IMS - Intelligent Billing Software
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/ecinicalworks-billing-services/"> eCinicalWorks Billing Software</Link>
+                    <Link href="/ecinicalworks-billing-services/">
+                      {" "}
+                      eCinicalWorks Billing Software
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/chirotouch-billing-services/">ChiroTouch Billing Software</Link>
+                    <Link href="/chirotouch-billing-services/">
+                      ChiroTouch Billing Software
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/office-ally-medical-billing-services/">Medisoft Billing Software</Link>
+                    <Link href="/office-ally-medical-billing-services/">
+                      Medisoft Billing Software
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/athena-billing-services/">Athena Billing Software</Link>
+                    <Link href="/athena-billing-services/">
+                      Athena Billing Software
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/kareo-billing-services/">Kareo Billing Software</Link>
+                    <Link href="/kareo-billing-services/">
+                      Kareo Billing Software
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/lytec-billing-services/"> Lytec Billing Software</Link>
+                    <Link href="/lytec-billing-services/">
+                      {" "}
+                      Lytec Billing Software
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -185,8 +211,10 @@ const Footer = () => {
         <div className="container">
           <div className="copy-right">
             <p>
-              Copyright &copy; {currentYear} Advanced Healthcare. All Rights
-              Reserved
+              Copyright &copy; {currentYear} All Rights Reserved |{"  "}
+              <a href="https://mymedicalbillingrcm.com" target="_blank">
+                Advanced Healthcare Solutions
+              </a>
             </p>
           </div>
         </div>

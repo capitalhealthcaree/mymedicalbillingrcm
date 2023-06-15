@@ -1,15 +1,8 @@
 import React from "react";
 import Head from "next/head";
 import GoTop from "./GoTop";
-// import Preloader from "./Preloader";
 
 const Layout = ({ children }) => {
-  // Preloader
-  // const [loader, setLoader] = React.useState(true);
-  // React.useEffect(() => {
-  //   setTimeout(() => setLoader(false), 600);
-  // }, []);
-
   return (
     <>
       <Head>
@@ -21,8 +14,6 @@ const Layout = ({ children }) => {
       </Head>
 
       {children}
-
-      {/* {loader ? <Preloader /> : null} */}
 
       <GoTop scrollStepInPx="100" delayInMs="10.50" />
     </>

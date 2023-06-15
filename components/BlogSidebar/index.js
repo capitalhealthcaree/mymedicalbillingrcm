@@ -7,7 +7,7 @@ const BlogSidebar = ({ newsFlag }) => {
   const [items, setItems] = useState([]);
   const apiCall = async () => {
     const posts = await axios.get(
-      `https://rcmbackend.vercel.app/api/v1/${endURL}`
+      `https://rcmbackend.vercel.app/api/v1${endURL}`
     );
     setItems(posts.data.data);
   };

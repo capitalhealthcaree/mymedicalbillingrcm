@@ -1,7 +1,6 @@
 import React from "react";
 
 const ProtectYourself = ({ data }) => {
-  console.log(data);
   return (
     <>
       <div className="prevention-area pt-70 pb-70">

@@ -1,14 +1,15 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import LeftSideBlogForm from "../DemoRequestForm/LeftSideDemoRequestForm";
-import axios from "axios";
+import api from "../../utils/api";
+
 const BlogSidebar = ({ newsFlag }) => {
   const endURL = newsFlag ? "/news/popularNews" : "/blog/popularBlogs";
+
   const [items, setItems] = useState([]);
+
   const apiCall = async () => {
-    const posts = await axios.get(
-      `https://rcmbackend.vercel.app/api/v1${endURL}`
-    );
+    const posts = await api.get(`${endURL}`);
     setItems(posts.data.data);
   };
   useEffect(() => {

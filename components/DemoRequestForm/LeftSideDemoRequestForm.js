@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import axios from "axios";
+import api from "../../utils/api";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
-const CSR_BASE_URL = process.env.NEXT_PUBLIC_URL;
 
 const AppointmentForm = () => {
   const [name, setName] = useState("");
@@ -25,18 +23,13 @@ const AppointmentForm = () => {
       numberOfPhysicians: numberOfPhysicians,
       message: message,
     };
+
     setLoader(true);
-    const demoRequest = await axios.post(
-      `${CSR_BASE_URL}demo/createDemoRequest`,
-      data
-    );
+    const demoRequest = await api.post(`demo/createDemoRequest`, data);
 
     if (demoRequest.status === 200) {
       toast("Demo Request is sent successfully");
       setLoader(false);
-      // setTimeout(() => {
-      //   Router.push("/thank-you");
-      // }, 2000);
     }
   };
 

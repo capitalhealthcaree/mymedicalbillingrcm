@@ -4,7 +4,7 @@ import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 import Link from "next/link";
 import BlogSidebar from "../../components/BlogSidebar";
-import axios from "axios";
+import api from "../../utils/api";
 
 const BlogLeftSidebar = ({ item }) => {
   return (
@@ -118,9 +118,7 @@ const BlogLeftSidebar = ({ item }) => {
 export default BlogLeftSidebar;
 
 export const getServerSideProps = async () => {
-  const posts = await axios.get(
-    "https://rcmbackend.vercel.app/api/v1/blog/getBlogsByPagination?page=1&limit=8"
-  );
+  const posts = await api.get("blog/getBlogsByPagination?page=1&limit=8");
   const data = await posts.data.data;
   // const totalPage = await posts.data.totalPages;
   return {

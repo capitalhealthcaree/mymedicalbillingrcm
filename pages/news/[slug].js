@@ -3,7 +3,7 @@ import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 import BlogSidebar from "../../components/BlogSidebar";
-import axios from "axios";
+import api from "../../utils/api";
 
 const BlogGrid = ({ items }) => {
   return (
@@ -49,8 +49,8 @@ const BlogGrid = ({ items }) => {
 export default BlogGrid;
 
 export const getServerSideProps = async ({ query: { slug } }) => {
-  const posts = await axios.get(
-    "https://rcmbackend.vercel.app/api/v1/news/" + slug + "/"
+  const posts = await api.get(
+    "/news/" + slug + "/"
   );
   const datas = await posts.data.data;
   return {

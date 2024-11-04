@@ -3,7 +3,7 @@ import api from "../../utils/api";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const AppointmentForm = () => {
+const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
@@ -15,20 +15,41 @@ const AppointmentForm = () => {
   const HandleForm = async (e) => {
     e.preventDefault();
 
+    // Check for empty fields
+    if (!name || !phone || !email || !organization || !numberOfPhysicians) {
+      toast.error("Please fill in all required fields.");
+      return; // Prevent submission if fields are empty
+    }
+
     let data = {
-      name: name,
-      phone: phone,
-      email: email,
-      organization: organization,
-      numberOfPhysicians: numberOfPhysicians,
-      message: message,
+      name,
+      phone,
+      email,
+      organization,
+      numberOfPhysicians,
+      message,
     };
     setLoader(true);
 
-    const demoRequest = await api.post("/demo/createDemoRequest", data);
-    if (demoRequest.status === 200) {
-      toast("Demo Request is sent successfully");
-      setLoader(false);
+    try {
+      const demoRequest = await api.post("/demo/createDemoRequest", data);
+      if (demoRequest.status === 200) {
+        toast.success("Demo Request is sent successfully");
+
+        // Clear the fields after successful submission
+        setName("");
+        setPhone("");
+        setEmail("");
+        setOrganization("");
+        setNumberOfPhysicians("");
+        setMessage("");
+      } else {
+        toast.error("Failed to send the request. Please try again.");
+      }
+    } catch (error) {
+      toast.error("An error occurred. Please try again.");
+    } finally {
+      setLoader(false); // Turn off loader after request completes
     }
   };
 
@@ -46,7 +67,13 @@ const AppointmentForm = () => {
         pauseOnHover
         theme="light"
       />
-      <div className="appointment-area jarallax ptb-50">
+      <div
+        className={
+          leftSideDemoForm || billingSoftware
+            ? ""
+            : "appointment-area jarallax ptb-50"
+        }
+      >
         <div className="container">
           <div className="appointment-here-form">
             <span className="top-title">Schedule a Demo</span>
@@ -54,7 +81,9 @@ const AppointmentForm = () => {
 
             <form onSubmit={HandleForm}>
               <div className="row">
-                <div className="col-lg-6 col-sm-6">
+                <div
+                  className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
+                >
                   <label>Name</label>
                   <div className="form-group">
                     <input
@@ -69,56 +98,70 @@ const AppointmentForm = () => {
                   </div>
                 </div>
 
-                <div className="col-lg-6 col-sm-6">
+                <div
+                  className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
+                >
                   <label>Email</label>
                   <div className="form-group">
                     <input
-                      type="text"
+                      type="email"
                       className="form-control"
                       id="Email"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       placeholder="Enter Your Email"
+                      required
                     />
                     <i className="flaticon-email"></i>
                   </div>
                 </div>
 
-                <div className="col-lg-6 col-sm-6">
+                <div
+                  className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
+                >
                   <label>Phone</label>
                   <div className="form-group">
                     <input
-                      type="text"
+                      type="tel"
                       className="form-control"
                       id="Phone"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       placeholder="Enter Your Phone"
+                      required
                     />
                     <i className="flaticon-smartphone"></i>
                   </div>
                 </div>
-                <div className="col-lg-6 col-sm-6">
+
+                <div
+                  className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
+                >
                   <label>Organization</label>
                   <div className="form-group">
                     <input
                       type="text"
                       className="form-control"
-                      id="Name"
+                      id="Organization"
                       value={organization}
                       onChange={(e) => setOrganization(e.target.value)}
                       placeholder="Enter Your Organization Name"
+                      required
                     />
                     <i className="flaticon-account"></i>
                   </div>
                 </div>
-                <div className="col-lg-6 col-sm-6">
+
+                <div
+                  className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
+                >
                   <label>Number of Physicians*</label>
                   <div className="form-group">
                     <select
                       className="form-control"
                       value={numberOfPhysicians}
                       onChange={(e) => setNumberOfPhysicians(e.target.value)}
+                      required
                     >
                       <option value="">Select</option>
                       <option value="1">1</option>
@@ -151,7 +194,7 @@ const AppointmentForm = () => {
                 </div>
 
                 <div className="col-12">
-                  <button type="submit" className=" d-flex default-btn">
+                  <button type="submit" className="d-flex default-btn">
                     {loader && (
                       <span
                         className="me-3 spinner-border spinner-border-sm"
@@ -164,10 +207,11 @@ const AppointmentForm = () => {
                 </div>
               </div>
             </form>
-
-            <div className="shape">
-              <img src="/img/shape/appointment-shape.png" alt="Image" />
-            </div>
+            {!leftSideDemoForm && !billingSoftware && (
+              <div className="shape">
+                <img src="/img/shape/appointment-shape.png" alt="Image" />
+              </div>
+            )}
           </div>
         </div>
       </div>

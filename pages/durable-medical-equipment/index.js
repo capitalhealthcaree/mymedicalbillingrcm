@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
-import SimpleDemoRequestForm from "../../components/DemoRequestForm/SimpleDemoRequestForm";
+import AppointmentForm from "../../components/Home/AppointmentForm";
 import Common1 from "../../components/Services/Common1";
 import OurPromise from "../../components/Common/OurPromise";
 import ExistingEMR from "../../components/Common/ExistingEMR";
@@ -204,7 +204,7 @@ const ReferralManagement = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <SimpleDemoRequestForm />
+            <AppointmentForm billingSoftware={true} />{" "}
             </div>
           </div>
         </div>

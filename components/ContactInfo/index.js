@@ -14,7 +14,7 @@ const ContactInfo = () => {
                 <i className="bx bx-location-plus"></i>
                 <h3>Richardson</h3>
                 <p>2071 N Collins Blvd a, Richardson, TX 75080, USA</p>
-                <span>Email: admin@mymedicalbillingrcm.com</span>
+                <span>Email: director@mymedicalbillingrcm.com </span>
                 <span>Tel: +1 (469) 866-5222</span>
               </div>
             </div>

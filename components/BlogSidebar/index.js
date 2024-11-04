@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
-import LeftSideBlogForm from "../DemoRequestForm/LeftSideDemoRequestForm";
+import AppointmentForm from "../../components/Home/AppointmentForm";
+
 import api from "../../utils/api";
 
-const BlogSidebar = ({ newsFlag }) => {
+const BlogSidebar = ({ newsFlag, leftSideDemoForm }) => {
   const endURL = newsFlag ? "/news/popularNews" : "/blog/popularBlogs";
 
   const [items, setItems] = useState([]);
@@ -18,7 +19,7 @@ const BlogSidebar = ({ newsFlag }) => {
   return (
     <>
       <div className="widget-area" id="secondary">
-        <LeftSideBlogForm />
+        <AppointmentForm leftSideDemoForm={leftSideDemoForm} />
 
         <div className="widget widget-peru-posts-thumb">
           <h3 className="widget-title">

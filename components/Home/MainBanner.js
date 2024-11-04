@@ -51,13 +51,9 @@ const MainBanner = () => {
                       <Link href="/demo" className="default-btn">
                         Request Demo
                       </Link>
-
-                      <div
-                        onClick={() => router.push("/contact")}
-                        className="default-btn active popup-youtube"
-                      >
+                      <Link href="/contact" className="default-btn ms-4">
                         Contact Us
-                      </div>
+                      </Link>
                     </div>
                   </div>
                 </div>

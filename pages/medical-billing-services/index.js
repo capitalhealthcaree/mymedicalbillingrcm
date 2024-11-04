@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../../components/_App/Navbar";
 import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
-import SimpleDemoRequestForm from "../../components/DemoRequestForm/SimpleDemoRequestForm";
+import AppointmentForm from "../../components/Home/AppointmentForm";
 import MBSFeature from "../../components/Services/MBS";
 import OurPromise from "../../components/Common/OurPromise";
 import ExistingEMR from "../../components/Common/ExistingEMR";
@@ -199,7 +199,7 @@ const MBS = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <SimpleDemoRequestForm />
+              <AppointmentForm billingSoftware={true} />{" "}
             </div>
           </div>
         </div>

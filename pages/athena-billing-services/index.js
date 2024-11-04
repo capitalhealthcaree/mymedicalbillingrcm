@@ -4,7 +4,7 @@ import PageBanner from "../../components/Common/PageBanner";
 import Footer from "../../components/_App/Footer";
 import OurPromise from "../../components/Common/OurPromise";
 import ExistingEMR from "../../components/Common/ExistingEMR";
-import SimpleDemoRequestForm from "../../components/DemoRequestForm/SimpleDemoRequestForm";
+import AppointmentForm from "../../components/Home/AppointmentForm";
 
 const RCM = () => {
   return (
@@ -163,7 +163,7 @@ const RCM = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <SimpleDemoRequestForm/>
+              <AppointmentForm billingSoftware={true} />
             </div>
           </div>
         </div>

@@ -24,7 +24,7 @@ const BlogLeftSidebar = ({ item }) => {
           <div className="row">
             <div className="col-lg-4 col-md-12">
               <div className="blog-left-sidebar">
-                <BlogSidebar newsFlag={true} />
+                <BlogSidebar newsFlag={true} leftSideDemoForm={true} />
               </div>
             </div>
 

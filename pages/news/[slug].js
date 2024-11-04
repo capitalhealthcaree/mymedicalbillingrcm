@@ -34,7 +34,7 @@ const BlogGrid = ({ items }) => {
 
             <div className="col-lg-4 col-md-12">
               <div className="blog-right-sidebar">
-                <BlogSidebar newsFlag={true} />
+                <BlogSidebar newsFlag={true} leftSideDemoForm={true}/>
               </div>
             </div>
           </div>

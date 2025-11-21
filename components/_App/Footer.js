@@ -30,7 +30,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="https://www.facebook.com/advancedhealthcaresolution"
+                        href="https://www.facebook.com/advancedhealthcaresol"
                         target="_blank"
                       >
                         <i className="bx bxl-facebook"></i>
@@ -43,7 +43,7 @@ const Footer = () => {
                     </li> */}
                     <li>
                       <a
-                        href="https://www.linkedin.com/company/advanced-healthcare-sol/"
+                        href="https://www.linkedin.com/company/advanced-healthcare-sol"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>
@@ -59,7 +59,7 @@ const Footer = () => {
                     </li> */}
                     <li>
                       <a
-                        href="https://www.instagram.com/advancedhealthcaresol/"
+                        href="https://www.instagram.com/advanced_healthcare_solutions"
                         target="_blank"
                       >
                         <i className="bx bxl-instagram"></i>

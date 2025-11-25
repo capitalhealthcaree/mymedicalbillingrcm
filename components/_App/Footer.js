@@ -182,10 +182,10 @@ const Footer = () => {
                 <h3>Get In Touch</h3>
                 <ul>
                   <li>
-                    <a href="tel:+1 (469) 866-5222">
+                    <a href="tel:+14694546966">
                       <i className="bx bx-phone-call"></i>
                       <span>Hotline:</span>
-                      Phone: +1 (469) 866-5222
+                      Phone: +1 (469) 454-6966
                     </a>
                   </li>
                   <li>
@@ -198,7 +198,7 @@ const Footer = () => {
                   <li>
                     <i className="bx bx-location-plus"></i>
                     <span>Address:</span>
-                    2071 N Collins Blvd Suite A Richardson TX 75080
+                    2200 Physicians Boulevard, Suite B1 Ennis, TX 75119
                   </li>
                 </ul>
               </div>

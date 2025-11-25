@@ -12,10 +12,10 @@ const ContactInfo = () => {
                 style={{ backgroundColor: "#d6fbfd" }}
               >
                 <i className="bx bx-location-plus"></i>
-                <h3>Richardson</h3>
-                <p>2071 N Collins Blvd a, Richardson, TX 75080, USA</p>
+                <h3>Ennis</h3>
+                <p>2200 Physicians Boulevard, Suite B1 Ennis, TX 75119</p>
                 <span>Email: director@mymedicalbillingrcm.com </span>
-                <span>Tel: +1 (469) 866-5222</span>
+                <span>Tel: +1 (469) 454-6966</span>
               </div>
             </div>
 

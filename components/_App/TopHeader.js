@@ -13,9 +13,9 @@ const TopHeader = () => {
                   Mon-Fri 9am-5pm
                 </li> */}
                 <li>
-                  <a href="tel:+822456974">
+                  <a href="tel:+14694546966">
                     <i className="bx bx-phone-call"></i>
-                    Call Us: +1 (469) 866-5222
+                    Call Us: +1 (469) 454-6966
                   </a>
                 </li>
                 <li>

@@ -1,4 +1,3 @@
-import React from "react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -198,7 +197,7 @@ const Footer = () => {
                   <li>
                     <i className="bx bx-location-plus"></i>
                     <span>Address:</span>
-                    2200 Physicians Boulevard, Suite A Ennis, TX 75119
+                    800 S Chatfield St Ennis, TX 75119
                   </li>
                 </ul>
               </div>

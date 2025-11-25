@@ -1,5 +1,3 @@
-import React from "react";
-
 const ContactInfo = () => {
   return (
     <>
@@ -13,7 +11,7 @@ const ContactInfo = () => {
               >
                 <i className="bx bx-location-plus"></i>
                 <h3>Ennis</h3>
-                <p>2200 Physicians Boulevard, Suite A Ennis, TX 75119</p>
+                <p>800 S Chatfield St Ennis, TX 75119</p>
                 <span>Email: director@mymedicalbillingrcm.com </span>
                 <span>Tel: +1 (469) 454-6966</span>
               </div>

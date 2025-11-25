@@ -198,7 +198,7 @@ const Footer = () => {
                   <li>
                     <i className="bx bx-location-plus"></i>
                     <span>Address:</span>
-                    2200 Physicians Boulevard, Suite B1 Ennis, TX 75119
+                    2200 Physicians Boulevard, Suite A Ennis, TX 75119
                   </li>
                 </ul>
               </div>

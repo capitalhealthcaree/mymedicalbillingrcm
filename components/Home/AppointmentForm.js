@@ -84,7 +84,15 @@ const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
                 <div
                   className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
                 >
-                  <label>Name</label>
+                  <label
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    Name<span style={{ color: "red" }}>*</span>
+                  </label>
                   <div className="form-group">
                     <input
                       type="text"
@@ -101,7 +109,15 @@ const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
                 <div
                   className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
                 >
-                  <label>Email</label>
+                  <label
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    Email<span style={{ color: "red" }}>*</span>
+                  </label>
                   <div className="form-group">
                     <input
                       type="email"
@@ -119,7 +135,15 @@ const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
                 <div
                   className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
                 >
-                  <label>Phone</label>
+                  <label
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    Phone<span style={{ color: "red" }}>*</span>
+                  </label>
                   <div className="form-group">
                     <input
                       type="tel"
@@ -137,7 +161,15 @@ const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
                 <div
                   className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
                 >
-                  <label>Organization</label>
+                  <label
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    Organization<span style={{ color: "red" }}>*</span>
+                  </label>
                   <div className="form-group">
                     <input
                       type="text"
@@ -155,7 +187,18 @@ const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
                 <div
                   className={leftSideDemoForm ? "col-12" : "col-lg-6 col-sm-6"}
                 >
-                  <label>Number of Physicians*</label>
+                  <label>
+                    Number of Physicians{" "}
+                    <label
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        gap: "4px",
+                      }}
+                    >
+                      <span style={{ color: "red" }}>*</span>
+                    </label>
+                  </label>
                   <div className="form-group">
                     <select
                       className="form-control"
@@ -177,9 +220,18 @@ const AppointmentForm = ({ leftSideDemoForm, billingSoftware }) => {
                 </div>
 
                 <div className="col-lg-12">
-                  <label>Message</label>
+                  <label
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "4px",
+                    }}
+                  >
+                    Message <span style={{ color: "red" }}>*</span>
+                  </label>
                   <div className="form-group">
                     <textarea
+                      required
                       name="message"
                       className="form-control"
                       id="Message"

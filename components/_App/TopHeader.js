@@ -19,9 +19,9 @@ const TopHeader = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:director@mymedicalbillingrcm.com ">
+                  <a href="mailto:admin@mymedicalbillingrcm.com ">
                     <i className="bx bxs-paper-plane"></i>
-                    Email: director@mymedicalbillingrcm.com
+                    Email: admin@mymedicalbillingrcm.com
                   </a>
                 </li>
               </ul>

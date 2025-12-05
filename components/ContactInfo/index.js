@@ -12,7 +12,12 @@ const ContactInfo = () => {
                 <i className="bx bx-location-plus"></i>
                 <h3>Ennis</h3>
                 <p>800 S Chatfield St Ennis, TX 75119</p>
-                <span>Email: director@mymedicalbillingrcm.com </span>
+                <span>
+                  Email:{" "}
+                  <a href="mailto:admin@mymedicalbillingrcm.com">
+                    admin@mymedicalbillingrcm.com
+                  </a>
+                </span>
                 <span>Tel: +1 (469) 454-6966</span>
               </div>
             </div>

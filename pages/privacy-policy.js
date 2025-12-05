@@ -111,8 +111,16 @@ const PrivacyPolicy = () => {
               At Advanced Healthcare Solutions, we are committed to protecting
               the privacy and security of our clients' data. If you have any
               questions or concerns about our Privacy and Policy, please contact
-              us at Email: <b>director@mymedicalbillingrcm.com</b> and call us
-              at <b>469-562-4188</b>
+              us at Email:{" "}
+              <b>
+                <a href="mailto:admin@mymedicalbillingrcm.com">
+                  admin@mymedicalbillingrcm.com
+                </a>
+              </b>{" "}
+              and call us at{" "}
+              <b>
+                <a href="tel:4695624188">469-562-4188</a>
+              </b>
             </span>
           </div>
         </div>

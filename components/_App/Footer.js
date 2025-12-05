@@ -188,10 +188,10 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="mailto:director@mymedicalbillingrcm.com ">
+                    <a href="mailto:admin@mymedicalbillingrcm.com ">
                       <i className="bx bx-envelope"></i>
                       <span>Email:</span>
-                      director@mymedicalbillingrcm.com
+                      admin@mymedicalbillingrcm.com
                     </a>
                   </li>
                   <li>

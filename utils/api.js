@@ -10,7 +10,7 @@ const config = {
   },
 };
 const api = axios.create({
-  baseURL: LOCAL_URL,
+  baseURL: BASE_URL,
   config,
 });
 export default api;

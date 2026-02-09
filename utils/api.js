@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "https://rcmbackend.onrender.com/";
+const BASE_URL = "https://rcmbackend-a-pi.vercel.app/";
 const LOCAL_URL = "http://localhost:5000";
 const config = {
   headers: {
@@ -10,7 +10,7 @@ const config = {
   },
 };
 const api = axios.create({
-  baseURL: BASE_URL,
+  baseURL: LOCAL_URL,
   config,
 });
 export default api;

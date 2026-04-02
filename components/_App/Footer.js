@@ -42,7 +42,7 @@ const Footer = () => {
                     </li> */}
                     <li>
                       <a
-                        href="https://www.linkedin.com/company/advanced-healthcare-sol"
+                        href="https://www.linkedin.com/company/advanced-healthcare-sol/"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>

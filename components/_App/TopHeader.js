@@ -31,7 +31,7 @@ const TopHeader = () => {
               <ul className="header-content-right">
                 <li>
                   <a
-                    href="https://www.facebook.com/advancedhealthcaresolution"
+                    href="https://www.facebook.com/advancedhealthcaresol"
                     target="_blank"
                   >
                     <i className="bx bxl-facebook"></i>
@@ -57,7 +57,7 @@ const TopHeader = () => {
                 </li> */}
                 <li>
                   <a
-                    href="https://www.instagram.com/advancedhealthcaresol/"
+                    href="https://www.instagram.com/advanced_healthcare_solutions"
                     target="_blank"
                   >
                     <i className="bx bxl-instagram"></i>

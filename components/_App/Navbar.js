@@ -48,7 +48,7 @@ const Navbar = () => {
               <nav className="navbar navbar-expand-md navbar-light">
                 <div className="container">
                   <Link href="/" className="navbar-brand">
-                    <img src="/img/rcm-logo.png" alt="logo" />
+                    <img src="/img/logo.png" alt="logo" />
                   </Link>
 
                   <button

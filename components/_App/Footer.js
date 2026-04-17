@@ -16,11 +16,11 @@ const Footer = () => {
                 data-aos-duration="1200"
               >
                 <Link href="/">
-                  <img src="/img/rcm-logo.png" alt="Image" />
+                  <img src="/img/logo.png" alt="Image" />
                 </Link>
 
                 <p>
-                  Advance Healthcare Solutions is a company specializing in
+                  Advanced IT & Healthcare Solutions is a company specializing in
                   health care services with a particular focus on empowering
                   hospitals, group practices, and independent practices.
                 </p>

@@ -105,7 +105,7 @@ const RCM = () => {
                   </ul>
                 </span>
                 <h3>
-                  What is the Benefit of Choosing Advanced Healthcare Solutions
+                  What is the Benefit of Choosing Advanced IT & Healthcare Solutions
                   for Office Ally Billing Software Services?
                 </h3>
 

@@ -43,7 +43,7 @@ const Testimonial = () => {
                 <img src="/img/client/client1.jpg" alt="img" />
 
                 <p>
-                  Working with Advanced Healthcare Solutions for the past 4
+                  Working with Advanced IT & Healthcare Solutions for the past 4
                   years has been an absolute pleasure. Their team is always
                   professional and well-versed in the latest medical billing
                   technologies. I highly recommend them to anyone looking for a
@@ -73,7 +73,7 @@ const Testimonial = () => {
                   I am extremely pleased with the services provided by Advanced
                   Healthcare Solutions. Their team has helped us streamline our
                   billing processes and increase revenue for our healthcare
-                  facility. I highly recommend Advanced Healthcare Solutions to
+                  facility. I highly recommend Advanced IT & Healthcare Solutions to
                   anyone in the healthcare industry looking to improve their
                   billing practices.
                 </p>
@@ -97,11 +97,11 @@ const Testimonial = () => {
               <div className="single-client">
                 <img src="/img/client/client3.jpg" alt="img" />
                 <p>
-                  Working with Advanced Healthcare Solutions has been an
+                  Working with Advanced IT & Healthcare Solutions has been an
                   absolute pleasure. Their level of professionalism and
                   commitment to excellence is truly unmatched, and they have
                   been extremely responsive to all of our needs. I would highly
-                  recommend Advanced Healthcare Solutions to anyone looking for
+                  recommend Advanced IT & Healthcare Solutions to anyone looking for
                   reliable and efficient billing services.
                 </p>
 
@@ -151,10 +151,10 @@ const Testimonial = () => {
 
                 <p>
                   During the exploratory, planning, and implementation stages of
-                  our project, working with Advanced Healthcare Solutions was a
+                  our project, working with Advanced IT & Healthcare Solutions was a
                   great experience. Despite the challenges of the pandemic, we
                   decided to proceed with the transition of EMR's, and the team
-                  at Advanced Healthcare Solutions was incredibly patient and
+                  at Advanced IT & Healthcare Solutions was incredibly patient and
                   gracious throughout the process.
                 </p>
 
@@ -177,7 +177,7 @@ const Testimonial = () => {
                 <img src="/img/client/jessica-pigott.jpg" alt="img" />
 
                 <p>
-                  What sets Advanced Healthcare Solutions apart is its
+                  What sets Advanced IT & Healthcare Solutions apart is its
                   cloud-based infrastructure and highly customizable platform.
                   The templates are easily tailored to meet the unique needs of
                   our practice, making it a highly flexible and adaptable

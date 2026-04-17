@@ -54,7 +54,7 @@ const data3 = {
   alt: "Medical Billing",
   heading: "Medical Billing",
   paragraph:
-    "Billing is a serious matter for us. Based on our years of experience in medical billing, we work round the clock to increase revenue and accelerate collection activities.With comprehensive reports such as aging accounts payable (patient and payer), reimbursement by carrier, provider/resource specific productivity reports, we ensure you keep track of the financial health of your practice. Advanced Healthcare Solutions offers top-notch medical billing services such as:",
+    "Billing is a serious matter for us. Based on our years of experience in medical billing, we work round the clock to increase revenue and accelerate collection activities.With comprehensive reports such as aging accounts payable (patient and payer), reimbursement by carrier, provider/resource specific productivity reports, we ensure you keep track of the financial health of your practice. Advanced IT & Healthcare Solutions offers top-notch medical billing services such as:",
   dataList: [
     {
       li: "Claim Submission and Scrubbing",

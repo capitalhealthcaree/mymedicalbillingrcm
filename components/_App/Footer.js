@@ -212,7 +212,7 @@ const Footer = () => {
             <p>
               Copyright &copy; {currentYear} All Rights Reserved |{"  "}
               <a href="https://mymedicalbillingrcm.com" target="_blank">
-                Advanced Healthcare Solutions
+                Advanced IT & Healthcare Solutions
               </a>
             </p>
           </div>

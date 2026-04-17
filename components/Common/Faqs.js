@@ -50,7 +50,7 @@ const Faqs = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        The goal of Advanced Healthcare Solutions is to make it
+                        The goal of Advanced IT & Healthcare Solutions is to make it
                         easy for users to use. Please refer to our Customer
                         Subscription Agreement for more details. Be sure to
                         check out our Customer Support Policy, Pricing Policy,
@@ -102,12 +102,12 @@ const Faqs = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        <span>What Does Advanced Healthcare Solutions do?</span>
+                        <span>What Does Advanced IT & Healthcare Solutions do?</span>
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Advanced Healthcare Solutions offers a range of
+                        Advanced IT & Healthcare Solutions offers a range of
                         healthcare services, including RCM, EHR, Practice
                         Management, Credentialing Service, Patient Portal, and
                         Medical Billing. These services are carefully designed
@@ -124,7 +124,7 @@ const Faqs = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, Advanced Healthcare Solutions team handles patient
+                        Yes, Advanced IT & Healthcare Solutions team handles patient
                         billing inquiries.
                       </p>
                     </AccordionItemPanel>
@@ -137,7 +137,7 @@ const Faqs = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, Advanced Healthcare Solutions will provide
+                        Yes, Advanced IT & Healthcare Solutions will provide
                         dedicated access to a team manager for your practice.
                       </p>
                     </AccordionItemPanel>
@@ -202,7 +202,7 @@ const Faqs = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Yes, Advanced Healthcare Solutions offers
+                        Yes, Advanced IT & Healthcare Solutions offers
                         faster-credentialing services at an additional cost for
                         healthcare providers.
                       </p>
@@ -232,7 +232,7 @@ const Faqs = () => {
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        We at Advanced Healthcare Solutions are compliant with
+                        We at Advanced IT & Healthcare Solutions are compliant with
                         HIPAA regulations in medical billing and are willing to
                         sign a business associate agreement with you.
                       </p>

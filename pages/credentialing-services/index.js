@@ -14,16 +14,16 @@ const data1 = {
   dataList: [
     {
       h: "Fill Out The Form",
-      p: "Credentialing with Advanced Healthcare will be completed once by each provider. We will use the information you provide in your Advanced Healthcare Solutions credentialing profile for all future credentialing applications you submit. You can begin the application process by providing information and uploading documents via our online application.",
+      p: "Credentialing with Advanced Healthcare will be completed once by each provider. We will use the information you provide in your Advanced IT & Healthcare Solutions credentialing profile for all future credentialing applications you submit. You can begin the application process by providing information and uploading documents via our online application.",
     },
     {
       h: "Contact Us For A Quote",
-      p: "Please contact Advanced Healthcare Solutions to discuss the details of your organization and your health plans in order for us to provide you with an accurate quote.We'll begin the process after you e-sign your proposal.",
+      p: "Please contact Advanced IT & Healthcare Solutions to discuss the details of your organization and your health plans in order for us to provide you with an accurate quote.We'll begin the process after you e-sign your proposal.",
     },
 
     {
       h: "Complete the Profile",
-      p: "In order to track credentialing applications, you will need to complete your Advanced Healthcare Solutions profile.",
+      p: "In order to track credentialing applications, you will need to complete your Advanced IT & Healthcare Solutions profile.",
     },
   ],
 };
@@ -32,7 +32,7 @@ const data2 = {
   alt: "Credentialing Services",
   heading: "Physician Credentialing Services: Benefits",
   paragraph:
-    "As part of its Advanced Healthcare Solutions Credentialing Services for Physicians program, we can provide you with the following services:",
+    "As part of its Advanced IT & Healthcare Solutions Credentialing Services for Physicians program, we can provide you with the following services:",
   dataList: [
     {
       li: "Enrollment with major medical providers; Medicare and Medicaid enrollment for individuals and groups",
@@ -166,7 +166,7 @@ const CredentialingServices = () => {
                     insurance companies and patients. A preferred provider
                     network is an important step in enrolling with an insurance
                     company. By participating in these networks with
-                    advantageous contracts, Advanced Healthcare Solutions can
+                    advantageous contracts, Advanced IT & Healthcare Solutions can
                     provide you with credentialing services. As a result, your
                     patient care and satisfaction will improve, while your
                     revenue will increase. Our objective is to increase your

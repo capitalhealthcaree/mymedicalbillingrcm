@@ -30,7 +30,7 @@ const AboutUs = () => {
                 <span className="top-title">About Us</span>
                 <h2>Smart Medical Billing Services For Improved Cash Flow</h2>
                 <p>
-                  Advanced Healthcare Solutions is a leading supplier of
+                  Advanced IT & Healthcare Solutions is a leading supplier of
                   innovative health information systems and services that change
                   the way administrative and clinical operations and medical
                   records work in healthcare RCM organizations of all sizes.

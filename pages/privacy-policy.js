@@ -28,7 +28,7 @@ const PrivacyPolicy = () => {
               only for the purpose(s) specified by us and for other suitable
               reasons. Unless we obtain the consent of the individual concerned
               or as required by law, we will provide personal information only
-              for acceptable uses. At Advanced Healthcare Solutions, we value
+              for acceptable uses. At Advanced IT & Healthcare Solutions, we value
               our clients' privacy and understand the importance of protecting
               their confidential information. This Privacy and Policy document
               outlines the measures we take to ensure the security of your data.
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
               <li>Request that their data be restricted</li>
             </ul>
             <span>
-              At Advanced Healthcare Solutions, we are committed to protecting
+              At Advanced IT & Healthcare Solutions, we are committed to protecting
               the privacy and security of our clients' data. If you have any
               questions or concerns about our Privacy and Policy, please contact
               us at Email:{" "}

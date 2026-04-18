@@ -14,7 +14,7 @@ const data1 = {
   dataList: [
     {
       h: "Fill Out The Form",
-      p: "Credentialing with Advanced Healthcare will be completed once by each provider. We will use the information you provide in your Advanced IT & Healthcare Solutions credentialing profile for all future credentialing applications you submit. You can begin the application process by providing information and uploading documents via our online application.",
+      p: "Credentialing with Advanced IT & Healthcare Solutions will be completed once by each provider. We will use the information you provide in your Advanced IT & Healthcare Solutions credentialing profile for all future credentialing applications you submit. You can begin the application process by providing information and uploading documents via our online application.",
     },
     {
       h: "Contact Us For A Quote",
@@ -99,7 +99,7 @@ const CredentialingServices = () => {
               <li>Certifications by boards</li>
             </ul>
             <p>
-              Advanced healthcare credentialing services, we can assist you with
+              Advanced IT & Healthcare Solutions credentialing services, we can assist you with
               provider enrollment and becoming an in-network provider so that
               you can receive reimbursement from each carrier. While just a few
               years ago healthcare professionals considered medical
@@ -128,7 +128,7 @@ const CredentialingServices = () => {
               are covered by our team of professionals.
             </p>
             <p>
-              In Advanced Healthcare, our team of professionals maintains
+              In Advanced IT & Healthcare Solutions, our team of professionals maintains
               expertise in the credentialing process for healthcare providers.
               In addition, it is necessary to remain informed about industry
               changes, credentialing trends, and payer requirements. Our team of
@@ -139,7 +139,7 @@ const CredentialingServices = () => {
               required documents, we complete the credentialing process, send
               applications to payers, and promptly respond to payers' requests
               for clarification. Each time your practice is due for
-              re-credentialing, Advanced Healthcare assigns a team of experts to
+              re-credentialing, Advanced IT & Healthcare Solutions assigns a team of experts to
               track the deadlines, initiate, and complete the process.
             </p>
             <p>
@@ -194,7 +194,7 @@ const CredentialingServices = () => {
                   <p>
                     We verify enrollment status before making submissions and
                     validate EDI and EFT agreements to prevent revenue loss.
-                    Medical practices continue to work with Advanced Healthcare
+                    Medical practices continue to work with Advanced IT & Healthcare Solutions
                     because of the high level of service satisfaction we
                     provide.
                   </p>

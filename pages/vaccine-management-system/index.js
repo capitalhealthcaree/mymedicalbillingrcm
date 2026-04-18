@@ -65,7 +65,7 @@ const ReferralManagement = () => {
               registration, rapid testing, outreach, scheduling administration,
               billing, registry reporting, and outcomes monitoring for
               healthcare organizations. By utilizing a vaccination management
-              system, Advanced Healthcare strives to improve the efficiency and
+              system, Advanced IT & Healthcare Solutions strives to improve the efficiency and
               effectiveness of healthcare organizations. Our goal is to equip
               them with technology to ensure that they are able to provide the
               highest quality of care while saving their staff members time.

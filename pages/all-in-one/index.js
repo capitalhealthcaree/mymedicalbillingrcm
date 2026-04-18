@@ -13,7 +13,7 @@ const data1 = {
   alt: "Electronic Health Records",
   heading: "Electronic Health Records",
   paragraph:
-    "Using certified cloud technology and integrated service delivery enhances collaboration, productivity, and patient safety across multiple platforms and systems.As a result of Advanced Healthcare's services, decision-making is simplified, operations are streamlined, and best practices are followed effectively. By doing so, time and effort are saved and the return on investment is maximized.In addition to helping you manage value-based care programs, our EHRs also integrate behavioral health and chronic care management.",
+    "Using certified cloud technology and integrated service delivery enhances collaboration, productivity, and patient safety across multiple platforms and systems.As a result of Advanced IT & Healthcare Solutions's services, decision-making is simplified, operations are streamlined, and best practices are followed effectively. By doing so, time and effort are saved and the return on investment is maximized.In addition to helping you manage value-based care programs, our EHRs also integrate behavioral health and chronic care management.",
   dataList: [],
 };
 const data2 = {
@@ -21,7 +21,7 @@ const data2 = {
   alt: "Practice Management",
   heading: "Practice Management",
   paragraph:
-    "By enhancing the quality of the services you offer to your patients and increasing collections as well as helping you remain ahead of compliance requirements, Advanced Healthcare provides your practice with the flexibility and reach it needs to thrive in today's highly competitive medicine practice.Software for practice management includes the following features:",
+    "By enhancing the quality of the services you offer to your patients and increasing collections as well as helping you remain ahead of compliance requirements, Advanced IT & Healthcare Solutions provides your practice with the flexibility and reach it needs to thrive in today's highly competitive medicine practice.Software for practice management includes the following features:",
   dataList: [
     {
       li: "The processing of payments from patients, insurance providers, and third parties",

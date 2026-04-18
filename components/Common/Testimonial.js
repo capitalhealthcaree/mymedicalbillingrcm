@@ -125,7 +125,7 @@ const Testimonial = () => {
 
                 <p>
                   We had developed trust in the billing system after using it
-                  for three years, which led us to choose Advanced Healthcare
+                  for three years, which led us to choose Advanced IT & Healthcare Solutions
                   Solutions for our EMR system. One of the key factors in our
                   decision was the ability to add and customize features, which
                   has made using the system highly efficient.

@@ -35,8 +35,7 @@ const MainBanner = () => {
                       data-aos-delay="300"
                       data-aos-duration="1200"
                     >
-                      An integral part of Flatworld Solutions, Advanced
-                      Healthcare Solutions is a healthcare business process
+                      An integral part of Flatworld Solutions, Advanced IT & Healthcare Solutions is a healthcare business process
                       outsourcing (BPO) service provider that offers an
                       extensive portfolio of services to physicians, billing
                       companies, healthcare providers, and insurance companies.

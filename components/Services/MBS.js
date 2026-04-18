@@ -8,7 +8,7 @@ const ProtectYourself = () => {
           <div className="section-title">
             <h2>Top Quality Medical Billing Services</h2>
             <p>
-              Advanced Healthcare offers top-quality medical billing services
+              Advanced IT & Healthcare Solutions offers top-quality medical billing services
               that streamline billing processes, reduce claim denials, and
               increase revenue for healthcare providers. Trust us for accurate
               and efficient billing solutions
@@ -22,7 +22,7 @@ const ProtectYourself = () => {
                 <h3>Save Money</h3>
                 <p>
                   By outsourcing medical billing to a professional company like
-                  Advanced Healthcare, healthcare providers can save money on
+                  Advanced IT & Healthcare Solutions, healthcare providers can save money on
                   staff salaries, training, software, and hardware expenses.
                 </p>
               </div>
@@ -44,7 +44,7 @@ const ProtectYourself = () => {
                 <i className="flaticon-growth"></i>
                 <h3>Cost Reduction</h3>
                 <p>
-                  Advanced Healthcare's cost-effective medical billing services
+                  Advanced IT & Healthcare Solutions's cost-effective medical billing services
                   help healthcare providers reduce expenses associated with
                   billing, including postage, paper, printing, and software.
                 </p>
@@ -80,7 +80,7 @@ const ProtectYourself = () => {
                 <i className="flaticon-growth"></i>
                 <h3>Quick Setup</h3>
                 <p>
-                  Advanced Healthcare offers a quick setup process in medical
+                  Advanced IT & Healthcare Solutions offers a quick setup process in medical
                   billing, allowing healthcare providers to start using their
                   billing services promptly and efficiently, without any hassle
                   or delay.

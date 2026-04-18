@@ -13,7 +13,7 @@ const data2 = {
   alt: "ConatctUs",
   heading: "Why Choose Us",
   paragraph:
-    "We strive to provide truly transformative revenue cycle management services as a revenue cycle management company. We at Advanced Healthcare are committed to being one step ahead and meeting your needs at all times. Working with us has a number of advantages.",
+    "We strive to provide truly transformative revenue cycle management services as a revenue cycle management company. We at Advanced IT & Healthcare Solutions are committed to being one step ahead and meeting your needs at all times. Working with us has a number of advantages.",
   dataList: [
     {
       li: "Maintain compliance with industry-specific security regulations. Data security systems and encryption protocols that are at the forefront of technology.",

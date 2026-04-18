@@ -38,7 +38,7 @@ const RCM = () => {
               assignment. Nevertheless, this will increase the company's costs
               in a significant manner. Therefore, Advance Healthcare is the most
               effective way to reduce operating costs and increase efficiency.
-              Advanced Healthcare utilizes Athena software to provide effective
+              Advanced IT & Healthcare Solutions utilizes Athena software to provide effective
               billing services to hundreds of clients worldwide. Furthermore, we
               provide Athena billing services through a highly experienced team
               and cutting-edge infrastructure.
